@@ -58,6 +58,8 @@
     <link rel="stylesheet" href="../assets/css/finalBuild.css">
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/modals.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </head>
 <body>
 <header id="header">
@@ -291,9 +293,12 @@
     <section data-code="banner">
         <div data-info="computer">
             <div class="container mx-auto">
-                <div id="main-banner">
-                    <img src="../assets/images/banner.png" alt="">
-                </div>
+
+                <swiper-container id="main-banner" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true" autoplay-delay="2500" rewind="true">
+                    <swiper-slide><img src="../assets/images/banner.png" alt=""></swiper-slide>
+                    <swiper-slide><img src="../assets/images/banner.png" alt=""></swiper-slide>
+                </swiper-container>
+
             </div>
         </div>
         <div data-info="mobile"></div>
