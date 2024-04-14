@@ -1,0 +1,31 @@
+#last-news-items{
+    @apply flex;
+    @apply flex-row;
+}
+.container-news-item{
+    @apply p-8;
+    @apply w-96;
+}
+
+.last-news-item{
+    @apply basis-2/4;
+    @apply bg-green-800;
+    @apply rounded-xl;
+}
+.last-news-item:nth-child(1){
+    @apply mr-2;
+}
+.last-news-item:nth-child(2){
+    @apply ml-2;
+}
+.news-item-section{
+
+}
+.news-item-title,
+.news-item-description{
+    @apply text-white;
+}
+.news-item-title{
+    @apply uppercase;
+}
+.news-item-description{}

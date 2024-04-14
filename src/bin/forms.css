@@ -1,0 +1,18 @@
+.btn-sicle-es-white{
+    @apply mt-2;
+    @apply px-3;
+    @apply py-2;
+    @apply text-xs;
+    @apply bg-gray-50 border border-gray-300 text-gray-900;
+    @apply font-medium;
+    @apply text-center;
+    @apply bg-white;
+    @apply rounded-full;
+    @apply hover:bg-gray-100;
+    @apply focus:ring-4;
+    @apply focus:ring-gray-100;
+    @apply focus:outline-none;
+}
+
+
+

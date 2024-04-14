@@ -1,0 +1,7 @@
+#main-category{
+    @apply flex;
+    @apply items-center;
+    @apply justify-around;
+    @apply text-green-800;
+    @apply text-5xl;
+}
