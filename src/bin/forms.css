@@ -1,18 +1,14 @@
-.btn-sicle-es-white{
-    @apply mt-2;
-    @apply px-3;
-    @apply py-2;
-    @apply text-xs;
-    @apply bg-gray-50 border border-gray-300 text-gray-900;
-    @apply font-medium;
-    @apply text-center;
-    @apply bg-white;
+
+.btn-prime{
+    @apply block;
     @apply rounded-full;
-    @apply hover:bg-gray-100;
-    @apply focus:ring-4;
-    @apply focus:ring-gray-100;
-    @apply focus:outline-none;
+    @apply text-sm;
+    @apply mx-auto;
+    @apply font-semibold;
+    @apply py-3;
+    @apply px-8;
+    @apply max-w-sm;
+    @apply text-green-800;
+    @apply bg-yellow-300 !important;
+    @apply hover:bg-slate-700;
 }
-
-
-

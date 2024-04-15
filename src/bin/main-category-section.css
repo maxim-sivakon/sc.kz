@@ -1,7 +1,28 @@
-#main-category{
+.category-slide-item {
+    @apply text-4xl;
+    @apply font-extrabold;
+    @apply uppercase;
+    @apply text-green-800;
+}
+
+.category-slide-item.active {
+    @apply text-red-800;
+}
+
+.category-slide-item-menu{
+    display: none;
     @apply flex;
     @apply items-center;
-    @apply justify-around;
-    @apply text-green-800;
-    @apply text-5xl;
+    @apply justify-between;
+    @apply text-black;
+}
+.category-slide-item-menu.active{
+    display: block;
+}
+.category-slide-item-menu li{
+    @apply cursor-pointer;
+    @apply font-medium;
+}
+#main-category-two-level{
+    @apply my-6;
 }

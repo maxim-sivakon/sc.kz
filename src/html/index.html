@@ -86,14 +86,57 @@
                             <path d="M5 6L0.236861 -2.54449e-07L9.76314 -9.03472e-07L5 6Z" fill="#8B2628"/>
                         </svg>
                         <div class="little-select-menu">
-                            <label for="currencySelected" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Выбор валюты</label>
-                            <select id="currencySelected" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                <option selected value="US">Тенге</option>
-                                <option value="CA">Рубль</option>
-                                <option value="FR">Доллар</option>
-                                <option value="DE">Евро</option>
-                            </select>
-                            <button class="btn-sicle-es-white">Сменить валюту</button>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Выбор
+                                валюты</label>
+                            <fieldset>
+                                <legend class="sr-only">Выбор валюты</legend>
+
+                                <div class="flex items-center mb-4">
+                                    <input id="currency-option-1" type="radio" name="currency" value="KZT"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+                                           checked>
+                                    <label for="currency-option-1"
+                                           class="block ms-2  text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        тенге
+                                    </label>
+                                </div>
+
+                                <div class="flex items-center mb-4">
+                                    <input id="currency-option-2" type="radio" name="currency" value="Germany"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="currency-option-2"
+                                           class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        рубль
+                                    </label>
+                                </div>
+
+                                <div class="flex items-center mb-4">
+                                    <input id="currency-option-3" type="radio" name="currency" value="Spain"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="currency-option-3"
+                                           class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        евро
+                                    </label>
+                                </div>
+
+                                <div class="flex items-center mb-4">
+                                    <input id="currency-option-4" type="radio" name="currency" value="United Kingdom"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus-ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="currency-option-4"
+                                           class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        юани
+                                    </label>
+                                </div>
+
+                                <div class="flex items-center mb-4">
+                                    <input id="currency-option-5" type="radio" name="currency" value="United Kingdom"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus-ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="currency-option-5"
+                                           class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        доллар
+                                    </label>
+                                </div>
+                            </fieldset>
                         </div>
                     </li>
                     <li id="select-language-pc">
@@ -102,13 +145,36 @@
                             <path d="M5 6L0.236861 -2.54449e-07L9.76314 -9.03472e-07L5 6Z" fill="#8B2628"/>
                         </svg>
                         <div class="little-select-menu">
-                            <label for="languageSelected" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Выбор языка</label>
-                            <select id="languageSelected" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                <option selected value="US">Русский</option>
-                                <option value="CA">Казахский</option>
-                                <option value="FR">Английский</option>
-                            </select>
-                            <button class="btn-sicle-es-white">Сменить язык</button>
+                            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Выбор
+                                языка</label>
+                            <fieldset>
+                                <legend class="sr-only">Выбор языка</legend>
+                                <div class="flex items-center mb-4">
+                                    <input id="language-option-1" type="radio" name="countries" value="USA"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+                                           checked>
+                                    <label for="language-option-1"
+                                           class="block ms-2  text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        русский
+                                    </label>
+                                </div>
+                                <div class="flex items-center mb-4">
+                                    <input id="language-option-2" type="radio" name="countries" value="USA"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="language-option-2"
+                                           class="block ms-2  text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        казахский
+                                    </label>
+                                </div>
+                                <div class="flex items-center mb-4">
+                                    <input id="language-option-3" type="radio" name="countries" value="USA"
+                                           class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="language-option-3"
+                                           class="block ms-2  text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        английский
+                                    </label>
+                                </div>
+                            </fieldset>
                         </div>
                     </li>
                 </ul>
@@ -239,62 +305,50 @@
                 <div id="main-search-line">
                     <input id="main-search-s" type="text" placeholder="Поиск по сайту">
                     <svg id="btn-search-action" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M38 13.585C38 13.4837 38 13.3951 38 13.2938L37.9104 12.7239C37.9104 12.6606 37.9104 12.5846 37.872 12.496C37.8465 12.2807 37.8081 12.0654 37.7569 11.8501L37.4882 10.8118C37.3986 10.5332 37.2834 10.2419 37.1683 9.95064L37.0659 9.68471C36.9508 9.39346 36.8228 9.11486 36.6565 8.84893L36.4901 8.53235C36.3366 8.22843 36.1574 7.94983 35.9527 7.67124L35.684 7.29134C35.5944 7.1647 35.492 7.03807 35.3897 6.9241L35.0186 6.53153C34.6987 6.1643 34.3276 5.84771 33.9182 5.56912C34.0077 5.35384 34.0205 5.11324 33.9566 4.8853C33.7006 4.25213 33.3296 3.69494 32.8433 3.21373C32.6386 2.99846 32.4211 2.79584 32.2036 2.60589L31.922 2.37795C30.3994 1.11161 28.5312 0.313821 26.5607 0.0985442C25.601 -0.0154261 24.6413 -0.0280895 23.6816 0.0478907C21.5831 0.275831 19.523 0.731713 17.5269 1.40287C16.7975 1.6688 16.081 1.98539 15.39 2.36529C13.7778 3.25172 12.4086 4.51806 11.3978 6.05033C10.6812 7.00008 10.1054 8.03848 9.69593 9.14019C9.51679 9.58341 9.36325 10.052 9.24809 10.5205L9.15851 10.8371C9.10733 11.027 9.06894 11.217 9.03056 11.4196L8.97938 11.6729C8.9154 11.9641 8.87701 12.2427 8.83862 12.534C8.83862 12.5846 8.83862 12.6226 8.83862 12.6733C8.87701 12.9392 8.88981 13.2178 8.86421 13.4837C8.86421 13.7876 8.86421 14.1169 8.82583 14.5221C8.78744 15.2186 8.86421 15.9151 9.04335 16.5862C9.00497 16.7002 8.97937 16.8269 8.94099 16.9408C8.9154 17.0548 8.92819 17.1688 8.97938 17.2701C9.10733 17.536 9.1969 17.8146 9.24809 18.1059C9.2097 18.1818 9.1969 18.2578 9.1969 18.3338C9.1969 18.4098 9.2097 18.4858 9.24809 18.5617C9.37604 18.8023 9.4912 19.0683 9.56798 19.3342C9.61916 19.4735 9.68314 19.6508 9.75991 19.8281C9.75991 19.8914 9.77271 19.9547 9.7983 20.018L9.90067 20.246L9.93905 20.3346C9.91346 20.4612 9.93905 20.5879 10.0158 20.6892L10.3229 21.183H10.2589C9.77271 21.183 9.29927 21.3097 8.88981 21.5503C8.77464 21.6136 8.67228 21.6896 8.56991 21.7782L8.51873 21.8162C8.44196 21.8162 8.36518 21.8542 8.3012 21.9049C8.23723 21.9555 8.18604 22.0062 8.14766 22.0821C7.73819 22.8166 7.14959 23.4245 6.43303 23.8803C5.71648 24.3616 5.10228 24.9694 4.61604 25.6785C4.48809 25.6785 4.37293 25.7545 4.28336 25.8432L4.1554 25.9951C3.61798 26.603 3.06777 27.2361 3.04218 27.7807C2.93981 27.7553 2.82465 27.7553 2.72228 27.7933C2.61992 27.8313 2.53035 27.9073 2.47917 27.9959C2.41519 28.1099 2.3896 28.2365 2.41519 28.3505C2.364 28.4392 2.31282 28.5151 2.24884 28.5911C2.17207 28.6164 2.10809 28.6671 2.04411 28.7304L0.879704 29.9714L0.841317 30.0094C0.751747 30.1107 0.662177 30.212 0.585403 30.3133C0.53422 30.3767 0.508629 30.4526 0.495833 30.5413C0.44465 30.5666 0.406263 30.6046 0.367876 30.6426C0.188736 30.8325 0.0607795 31.0731 0.00959677 31.3264C-0.00319892 31.3897 -0.00319892 31.4657 0.00959677 31.5417C0.00959677 31.6177 0.0479838 31.681 0.0863709 31.7316C0.124758 31.7823 0.163145 31.8203 0.201532 31.8456C0.163145 32.0862 0.150349 32.3142 0.163145 32.5548C0.201532 32.9093 0.278306 33.2512 0.419059 33.5805C0.572607 33.9477 0.751747 34.2896 0.982069 34.6062L1.30196 35.1001C1.37874 35.2267 1.45551 35.3534 1.53228 35.48L1.59626 35.556L3.01658 36.9743C3.37486 37.3162 3.78433 37.5948 4.24497 37.7847C4.60325 37.924 4.97432 38 5.3582 38C5.48615 38 5.61411 38 5.74207 37.9747C6.2283 37.9114 6.70174 37.7214 7.09841 37.4301C7.45669 37.1769 7.77658 36.8856 8.05809 36.5564L10.5277 33.8717C11.8456 32.3901 13.2915 31.0225 14.827 29.7688H14.8654C14.9678 29.7941 15.0829 29.7941 15.1981 29.7688C15.2877 29.7435 15.3772 29.7055 15.454 29.6422C15.5308 29.5789 15.5947 29.5029 15.6459 29.4269C15.6971 29.3509 15.7355 29.2623 15.7739 29.1736V29.123L15.7995 29.047L15.9274 28.8697C16.1706 28.5025 16.3241 28.0846 16.3625 27.6414C16.3625 27.4894 16.3625 27.3374 16.3625 27.1855L16.4904 27.2488C17.1558 27.5654 17.8724 27.844 18.5633 28.1226C20.2268 28.9584 22.095 29.3129 23.9503 29.1356C25.8313 28.9963 27.6611 28.4518 29.3117 27.5401L29.6572 27.3374C31.4358 26.3624 33.0737 25.172 34.5708 23.8044C36.2726 22.2468 37.3602 20.1447 37.6545 17.8652C37.7185 17.65 37.7313 17.422 37.6801 17.1941C37.9232 15.9784 38.0256 14.7374 37.9616 13.509L38 13.585Z" fill="#052507"/>
+                        <path d="M38 13.585C38 13.4837 38 13.3951 38 13.2938L37.9104 12.7239C37.9104 12.6606 37.9104 12.5846 37.872 12.496C37.8465 12.2807 37.8081 12.0654 37.7569 11.8501L37.4882 10.8118C37.3986 10.5332 37.2834 10.2419 37.1683 9.95064L37.0659 9.68471C36.9508 9.39346 36.8228 9.11486 36.6565 8.84893L36.4901 8.53235C36.3366 8.22843 36.1574 7.94983 35.9527 7.67124L35.684 7.29134C35.5944 7.1647 35.492 7.03807 35.3897 6.9241L35.0186 6.53153C34.6987 6.1643 34.3276 5.84771 33.9182 5.56912C34.0077 5.35384 34.0205 5.11324 33.9566 4.8853C33.7006 4.25213 33.3296 3.69494 32.8433 3.21373C32.6386 2.99846 32.4211 2.79584 32.2036 2.60589L31.922 2.37795C30.3994 1.11161 28.5312 0.313821 26.5607 0.0985442C25.601 -0.0154261 24.6413 -0.0280895 23.6816 0.0478907C21.5831 0.275831 19.523 0.731713 17.5269 1.40287C16.7975 1.6688 16.081 1.98539 15.39 2.36529C13.7778 3.25172 12.4086 4.51806 11.3978 6.05033C10.6812 7.00008 10.1054 8.03848 9.69593 9.14019C9.51679 9.58341 9.36325 10.052 9.24809 10.5205L9.15851 10.8371C9.10733 11.027 9.06894 11.217 9.03056 11.4196L8.97938 11.6729C8.9154 11.9641 8.87701 12.2427 8.83862 12.534C8.83862 12.5846 8.83862 12.6226 8.83862 12.6733C8.87701 12.9392 8.88981 13.2178 8.86421 13.4837C8.86421 13.7876 8.86421 14.1169 8.82583 14.5221C8.78744 15.2186 8.86421 15.9151 9.04335 16.5862C9.00497 16.7002 8.97937 16.8269 8.94099 16.9408C8.9154 17.0548 8.92819 17.1688 8.97938 17.2701C9.10733 17.536 9.1969 17.8146 9.24809 18.1059C9.2097 18.1818 9.1969 18.2578 9.1969 18.3338C9.1969 18.4098 9.2097 18.4858 9.24809 18.5617C9.37604 18.8023 9.4912 19.0683 9.56798 19.3342C9.61916 19.4735 9.68314 19.6508 9.75991 19.8281C9.75991 19.8914 9.77271 19.9547 9.7983 20.018L9.90067 20.246L9.93905 20.3346C9.91346 20.4612 9.93905 20.5879 10.0158 20.6892L10.3229 21.183H10.2589C9.77271 21.183 9.29927 21.3097 8.88981 21.5503C8.77464 21.6136 8.67228 21.6896 8.56991 21.7782L8.51873 21.8162C8.44196 21.8162 8.36518 21.8542 8.3012 21.9049C8.23723 21.9555 8.18604 22.0062 8.14766 22.0821C7.73819 22.8166 7.14959 23.4245 6.43303 23.8803C5.71648 24.3616 5.10228 24.9694 4.61604 25.6785C4.48809 25.6785 4.37293 25.7545 4.28336 25.8432L4.1554 25.9951C3.61798 26.603 3.06777 27.2361 3.04218 27.7807C2.93981 27.7553 2.82465 27.7553 2.72228 27.7933C2.61992 27.8313 2.53035 27.9073 2.47917 27.9959C2.41519 28.1099 2.3896 28.2365 2.41519 28.3505C2.364 28.4392 2.31282 28.5151 2.24884 28.5911C2.17207 28.6164 2.10809 28.6671 2.04411 28.7304L0.879704 29.9714L0.841317 30.0094C0.751747 30.1107 0.662177 30.212 0.585403 30.3133C0.53422 30.3767 0.508629 30.4526 0.495833 30.5413C0.44465 30.5666 0.406263 30.6046 0.367876 30.6426C0.188736 30.8325 0.0607795 31.0731 0.00959677 31.3264C-0.00319892 31.3897 -0.00319892 31.4657 0.00959677 31.5417C0.00959677 31.6177 0.0479838 31.681 0.0863709 31.7316C0.124758 31.7823 0.163145 31.8203 0.201532 31.8456C0.163145 32.0862 0.150349 32.3142 0.163145 32.5548C0.201532 32.9093 0.278306 33.2512 0.419059 33.5805C0.572607 33.9477 0.751747 34.2896 0.982069 34.6062L1.30196 35.1001C1.37874 35.2267 1.45551 35.3534 1.53228 35.48L1.59626 35.556L3.01658 36.9743C3.37486 37.3162 3.78433 37.5948 4.24497 37.7847C4.60325 37.924 4.97432 38 5.3582 38C5.48615 38 5.61411 38 5.74207 37.9747C6.2283 37.9114 6.70174 37.7214 7.09841 37.4301C7.45669 37.1769 7.77658 36.8856 8.05809 36.5564L10.5277 33.8717C11.8456 32.3901 13.2915 31.0225 14.827 29.7688H14.8654C14.9678 29.7941 15.0829 29.7941 15.1981 29.7688C15.2877 29.7435 15.3772 29.7055 15.454 29.6422C15.5308 29.5789 15.5947 29.5029 15.6459 29.4269C15.6971 29.3509 15.7355 29.2623 15.7739 29.1736V29.123L15.7995 29.047L15.9274 28.8697C16.1706 28.5025 16.3241 28.0846 16.3625 27.6414C16.3625 27.4894 16.3625 27.3374 16.3625 27.1855L16.4904 27.2488C17.1558 27.5654 17.8724 27.844 18.5633 28.1226C20.2268 28.9584 22.095 29.3129 23.9503 29.1356C25.8313 28.9963 27.6611 28.4518 29.3117 27.5401L29.6572 27.3374C31.4358 26.3624 33.0737 25.172 34.5708 23.8044C36.2726 22.2468 37.3602 20.1447 37.6545 17.8652C37.7185 17.65 37.7313 17.422 37.6801 17.1941C37.9232 15.9784 38.0256 14.7374 37.9616 13.509L38 13.585Z"
+                              fill="#052507"/>
                     </svg>
-                    <svg id="btn-search-action-close" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.548 15.3101C19.2529 14.0501 18.254 13.3123 17.3062 12.5404C15.8021 11.3201 14.3037 10.0999 12.8053 8.87958C14.3434 7.3585 15.8816 5.83174 17.4197 4.31066C17.6013 4.12904 17.7943 3.91904 18.027 3.83958C18.901 3.53309 19.3437 2.43201 18.8443 1.6885C18.6002 1.32525 18.3505 0.967683 18.1234 0.638494C17.8113 0.195791 17.2891 -0.0652909 16.7556 0.0141687C15.4729 0.195791 14.6499 1.12093 13.7986 2.00066C12.408 3.43661 11.0118 4.8612 9.62128 6.29715C9.2183 5.97364 8.821 5.64445 8.41803 5.32093C7.58371 4.6512 6.6983 4.03823 5.82424 3.41958C4.73451 2.64201 3.6164 1.90417 2.5437 1.1039C1.52208 0.326331 0.772887 0.502277 0.245049 1.70552C-0.271439 2.86904 0.0463996 3.86228 1.09073 4.50363C1.50505 4.75336 1.90802 5.02012 2.27694 5.32661C3.79235 6.60931 5.30776 7.89202 6.82884 9.16904C6.49397 9.51526 6.15343 9.86715 5.81289 10.2134C5.06938 10.9853 4.38262 11.8139 3.68451 12.6255C2.81046 13.6415 1.98181 14.6915 1.08505 15.6847C0.233697 16.6326 0.341535 17.3931 1.48802 18.0288C2.60046 18.6418 3.6164 18.4204 4.34857 17.4328C4.63235 17.0469 4.93316 16.6666 5.2737 16.3261C6.81181 14.805 8.34992 13.2839 9.88803 11.7628C11.6986 13.2953 13.5148 14.822 15.3253 16.3545C15.5183 16.5191 15.751 16.695 15.8475 16.9164C16.2278 17.7564 17.3629 18.1026 18.061 17.5407C18.4016 17.2682 18.7364 16.9845 19.0429 16.7291C19.4572 16.3828 19.6672 15.8323 19.548 15.3101Z" fill="#052507"/>
+                    <svg id="btn-search-action-close" viewBox="0 0 20 19" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.548 15.3101C19.2529 14.0501 18.254 13.3123 17.3062 12.5404C15.8021 11.3201 14.3037 10.0999 12.8053 8.87958C14.3434 7.3585 15.8816 5.83174 17.4197 4.31066C17.6013 4.12904 17.7943 3.91904 18.027 3.83958C18.901 3.53309 19.3437 2.43201 18.8443 1.6885C18.6002 1.32525 18.3505 0.967683 18.1234 0.638494C17.8113 0.195791 17.2891 -0.0652909 16.7556 0.0141687C15.4729 0.195791 14.6499 1.12093 13.7986 2.00066C12.408 3.43661 11.0118 4.8612 9.62128 6.29715C9.2183 5.97364 8.821 5.64445 8.41803 5.32093C7.58371 4.6512 6.6983 4.03823 5.82424 3.41958C4.73451 2.64201 3.6164 1.90417 2.5437 1.1039C1.52208 0.326331 0.772887 0.502277 0.245049 1.70552C-0.271439 2.86904 0.0463996 3.86228 1.09073 4.50363C1.50505 4.75336 1.90802 5.02012 2.27694 5.32661C3.79235 6.60931 5.30776 7.89202 6.82884 9.16904C6.49397 9.51526 6.15343 9.86715 5.81289 10.2134C5.06938 10.9853 4.38262 11.8139 3.68451 12.6255C2.81046 13.6415 1.98181 14.6915 1.08505 15.6847C0.233697 16.6326 0.341535 17.3931 1.48802 18.0288C2.60046 18.6418 3.6164 18.4204 4.34857 17.4328C4.63235 17.0469 4.93316 16.6666 5.2737 16.3261C6.81181 14.805 8.34992 13.2839 9.88803 11.7628C11.6986 13.2953 13.5148 14.822 15.3253 16.3545C15.5183 16.5191 15.751 16.695 15.8475 16.9164C16.2278 17.7564 17.3629 18.1026 18.061 17.5407C18.4016 17.2682 18.7364 16.9845 19.0429 16.7291C19.4572 16.3828 19.6672 15.8323 19.548 15.3101Z"
+                              fill="#052507"/>
                     </svg>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="modal-location" class="default-modal">
+    <div id="main-location">
         <div class="body-blur"></div>
-        <div class="modal-block">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>
-                        Выберите город
-                    </h3>
-                    <button id="modal-location-close-btn" type="button" data-modal-hide="default-modal">
-                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                             viewBox="0 0 14 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                        </svg>
-                        <span class="sr-only">Close modal</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="max-w-sm mx-auto">
-                        <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">С
-                            какого Вы города ?</label>
-                        <select id="countries"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option selected value="US">Алма-ата</option>
-                            <option value="CA">Canada</option>
-                            <option value="FR">France</option>
-                            <option value="DE">Germany</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button data-modal-hide="default-modal" type="button" class="modal-btn-accept">Выбрать</button>
-                    <button id="modal-location-close" data-modal-hide="default-modal" type="button"
-                            class="modal-btn-decline">Отмена
-                    </button>
-                </div>
+        <div id="main-location-body">
+            <div id="main-location-header">
+                <h3>Выберите город</h3>
+                <button id="modal-location-close-btn" type="button">
+                    <svg class="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                </button>
             </div>
+            <div class="max-w-sm mx-auto">
+                <select id="countries"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500">
+                    <option selected value="US">Все города</option>
+                    <option value="CA">Алма-ата</option>
+                    <option value="FR">Астана</option>
+                    <option value="DE">Караганда</option>
+                </select>
+            </div>
+            <button type="button" class="btn-prime mt-6">Выбрать</button>
         </div>
     </div>
-
 
     <section data-code="banner">
         <div data-info="computer">
             <div class="container mx-auto">
 
-                <swiper-container id="main-banner" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true" autoplay-delay="2500" rewind="true">
+                <swiper-container id="main-banner" class="mySwiper" navigation="true" pagination="true" keyboard="true"
+                                  pagination-clickable="true" autoplay-delay="2500" mousewheel="true" rewind="true">
                     <swiper-slide><img src="../assets/images/banner.png" alt=""></swiper-slide>
                     <swiper-slide><img src="../assets/images/banner.png" alt=""></swiper-slide>
                 </swiper-container>
@@ -303,28 +357,66 @@
         </div>
         <div data-info="mobile"></div>
     </section>
-    <section data-code="category">
+    <section data-margin="true" data-code="category">
         <div class="container mx-auto">
             <h3>Категории товаров</h3>
-            <div>
-                <ul id="main-category">
-                    <li>
-                        <a href="">Кофе</a>
-                    </li>
-                    <li>
-                        <a href="">Чай</a>
-                    </li>
-                    <li>
-                        <a href="">Аксессуары</a>
-                    </li>
-                    <li>
-                        <a href="">Оборудование</a>
-                    </li>
+            <swiper-container id="main-category-slider" class="mySwiper" space-between="120" free-mode="true" slides-per-view="auto">
+                <swiper-slide>
+                    <div class="category-slide-item">Кофе</div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="category-slide-item">Чай</div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="category-slide-item">Аксессуары</div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="category-slide-item">Оборудование</div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="category-slide-item">Галстук</div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="category-slide-item">Капуста</div>
+                </swiper-slide>
+            </swiper-container>
+            <div id="main-category-two-level">
+                <ul class="category-slide-item-menu">
+                    <li><a href="">1кофе в зернах</a></li>
+                    <li><a href="">1капсулы</a></li>
+                    <li><a href="">1дрип-боксы</a></li>
+                    <li><a href="">1основы для раф</a></li>
+                    <li><a href="">1подарочные наборы</a></li>
+                    <li><a href="">1дрипы</a></li>
+                </ul>
+                <ul class="category-slide-item-menu">
+                    <li><a href="">2кофе в зернах</a></li>
+                    <li><a href="">2капсулы</a></li>
+                    <li><a href="">2дрип-боксы</a></li>
+                    <li><a href="">2основы для раф</a></li>
+                    <li><a href="">2подарочные наборы</a></li>
+                    <li><a href="">2дрипы</a></li>
+                </ul>
+                <ul class="category-slide-item-menu">
+                    <li><a href="">3кофе в зернах</a></li>
+                    <li><a href="">3капсулы</a></li>
+                    <li><a href="">3дрип-боксы</a></li>
+                    <li><a href="">3основы для раф</a></li>
+                    <li><a href="">3подарочные наборы</a></li>
+                    <li><a href="">3дрипы</a></li>
+                </ul>
+                <ul class="category-slide-item-menu">
+                    <li><a href="">4кофе в зернах</a></li>
+                    <li><a href="">4капсулы</a></li>
+                    <li><a href="">4дрип-боксы</a></li>
+                    <li><a href="">4основы для раф</a></li>
+                    <li><a href="">4подарочные наборы</a></li>
+                    <li><a href="">4дрипы</a></li>
                 </ul>
             </div>
         </div>
     </section>
-    <section data-code="last-news">
+    <section data-margin="true" data-code="last-news">
         <div class="container mx-auto">
             <div id="last-news-items">
                 <div class="last-news-item">

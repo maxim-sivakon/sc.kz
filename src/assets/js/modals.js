@@ -2,21 +2,17 @@
 function initLocation() {
     var selectGeoLocationPc = document.getElementById("select-geo-location-pc");
     var modalLocationCloseBtn = document.getElementById("modal-location-close-btn");
-    var btnLocationClose = document.getElementById("modal-location-close");
-    var modalLocation = document.getElementById("modal-location");
-    var modalLocationBlur = document.querySelector('#modal-location > .body-blur');
+    var mainLocation = document.getElementById("main-location");
+    var mainLocationBlur = document.querySelector('#main-location > .body-blur');
 
     selectGeoLocationPc.onclick = function () {
-        modalLocation.style.display = 'block';
-    }
-    btnLocationClose.onclick = function () {
-        modalLocation.style.display = 'none';
+        mainLocation.style.display = 'block';
     }
     modalLocationCloseBtn.onclick = function () {
-        modalLocation.style.display = 'none';
+        mainLocation.style.display = 'none';
     }
-    modalLocationBlur.onclick = function () {
-        modalLocation.style.display = 'none';
+    mainLocationBlur.onclick = function () {
+        mainLocation.style.display = 'none';
     }
 }
 
