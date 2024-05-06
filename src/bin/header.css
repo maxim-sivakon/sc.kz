@@ -4,6 +4,18 @@ header {
     @apply z-10;
 }
 
+header > div[data-info='computer']{
+    @apply hidden lg:block;
+}
+
+header > div[data-info='mobile']{
+    @apply bg-white;
+    @apply border-b-2;
+    @apply border-b-green-800;
+    @apply block lg:hidden;
+    @apply w-full;
+}
+
 #top-menu {
     @apply bg-green-800;
 }
@@ -19,6 +31,7 @@ header {
 #top-menu-items,
 .middle-block,
 #main-menu-pc,
+.mobile-list-control,
 #menu-control-pc {
     @apply flex;
     @apply items-center;
@@ -116,6 +129,12 @@ header {
 
 .middle-block > a > svg {
     @apply w-36;
+}
+.mobile-header-logo{
+    @apply w-28 !important;
+}
+.mobile-list-control > svg{
+    @apply mx-4 !important;
 }
 
 #control-user-pc > svg,
@@ -285,5 +304,51 @@ header {
 #modal-location-close-btn svg {
     @apply w-4;
     @apply h-4;
+    @apply text-orange-400;
+}
+
+#main-mobile-menu-bar{
+    @apply hidden;
+    @apply relative;
+}
+#main-mobile-menu-bar-body{
+    @apply z-50;
+    @apply fixed;
+    @apply top-0;
+    @apply right-0;
+    @apply bg-green-800;
+    width: 80%;
+    height: 100%;
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+}
+#main-mobile-menu-bar-body > ul > li{
+    @apply py-4;
+}
+#main-mobile-menu-bar-body > ul > li > a{
+    @apply text-lg;
+    @apply text-white;
+    @apply font-medium;
+}
+#main-mobile-menu-bar-body > ul > li > a:hover{
+    @apply text-yellow-300;
+}
+#mobile-menu-close{
+    @apply absolute;
+    @apply top-4;
+    @apply left-4;
+
+}
+#mobile-menu-close svg{
+    @apply w-8;
+}
+
+#mobile-menu-close svg:hover {
+    @apply text-yellow-300;
+    @apply cursor-pointer;
+}
+
+#mobile-menu-close svg:active {
     @apply text-orange-400;
 }

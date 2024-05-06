@@ -1,4 +1,5 @@
 .category-slide-item {
+    @apply cursor-pointer;
     @apply text-4xl;
     @apply font-extrabold;
     @apply uppercase;
@@ -11,17 +12,16 @@
 
 .category-slide-item-menu{
     display: none;
-    @apply flex;
     @apply items-center;
     @apply justify-between;
     @apply text-black;
 }
-.category-slide-item-menu.active{
-    display: block;
-}
 .category-slide-item-menu li{
     @apply cursor-pointer;
     @apply font-medium;
+}
+.category-slide-item-menu.active{
+    @apply flex;
 }
 #main-category-two-level{
     @apply my-6;
