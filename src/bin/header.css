@@ -313,6 +313,7 @@ header > div[data-info='mobile']{
 }
 #main-mobile-menu-bar-body{
     @apply z-50;
+    @apply py-10;
     @apply fixed;
     @apply top-0;
     @apply right-0;
@@ -320,25 +321,32 @@ header > div[data-info='mobile']{
     width: 80%;
     height: 100%;
     @apply flex;
-    @apply items-center;
+    @apply items-start;
     @apply justify-center;
+    @apply overflow-auto;
 }
-#main-mobile-menu-bar-body > ul > li{
-    @apply py-4;
+#main-mobile-menu-bar-body > ul > li,
+#mobile-menu-level-list > li{
+    @apply py-3;
 }
-#main-mobile-menu-bar-body > ul > li > a{
+#main-mobile-menu-bar-body > ul > li > a,
+#main-mobile-menu-bar-body > ul > li > span,
+#mobile-menu-level-list > li > a
+{
     @apply text-lg;
     @apply text-white;
     @apply font-medium;
 }
-#main-mobile-menu-bar-body > ul > li > a:hover{
+#main-mobile-menu-bar-body > ul > li > a:hover,
+#main-mobile-menu-bar-body > ul > li > span:hover,
+#mobile-menu-level-list > li > a:hover{
     @apply text-yellow-300;
+    @apply cursor-pointer;
 }
 #mobile-menu-close{
     @apply absolute;
     @apply top-4;
     @apply left-4;
-
 }
 #mobile-menu-close svg{
     @apply w-8;
@@ -351,4 +359,8 @@ header > div[data-info='mobile']{
 
 #mobile-menu-close svg:active {
     @apply text-orange-400;
+}
+#mobile-menu-level-list {
+    @apply ml-6;
+    @apply hidden;
 }

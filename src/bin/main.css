@@ -201,4 +201,24 @@
         @apply backdrop-blur-md;
         background-color: rgba(255, 255, 255, .2);
     }
+
+    #page-top{
+        @apply hidden;
+        @apply p-4;
+        @apply z-20;
+        @apply bg-green-800;
+        @apply fixed;
+        @apply rounded-full;
+        @apply bottom-2 right-2;
+        @apply cursor-pointer;
+    }
+    #page-top:hover{
+        @apply bg-green-900;
+    }
+    #page-top svg{
+        @apply fill-white;
+    }
+    #page-top:hover svg{
+        @apply fill-yellow-300;
+    }
 }
