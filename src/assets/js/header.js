@@ -78,11 +78,9 @@ document.addEventListener('readystatechange', function () {
 // show mobile menu level
 document.addEventListener('click', function () {
     if (document.readyState === "complete") {
-        const menuMobileLevel = document.getElementById("menu-mobile-level");
-        const menuMobileLevelList = document.querySelector("ul#menu-mobile-level-list");
-
+        let menuMobileLevel = document.getElementById("menu-mobile-level");
         menuMobileLevel.onclick = function () {
-            menuMobileLevelList.classList.toggle('block', false);
+            menuMobileLevel.classList.toggle('active-level-menu');
         }
     }
 });

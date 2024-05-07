@@ -1,5 +1,5 @@
 #last-news-items{
-    @apply lg:flex block;
+    @apply xl:flex block;
     @apply flex-row;
 }
 .container-news-item{
@@ -10,16 +10,17 @@
 .last-news-item{
     @apply h-60;
     @apply relative;
-    @apply lg:basis-2/4 basis-0;
+    @apply basis-2/4;
+    @apply mb-4;
     @apply bg-green-800;
     @apply rounded-xl;
     @apply overflow-hidden;
 }
 .last-news-item:nth-child(1){
-    @apply lg:mr-2;
+    @apply xl:mr-2;
 }
 .last-news-item:nth-child(2){
-    @apply lg:ml-2 mt-4;
+    @apply xl:ml-2;
 }
 .last-news-item > img{
     @apply h-full;

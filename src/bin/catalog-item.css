@@ -1,7 +1,7 @@
 .catalog-item {
     @apply bg-white;
     @apply rounded-xl;
-    @apply w-[313px];
+    @apply xl:w-[314px] lg:w-[327px] md:w-[373px] sm:w-[309px] w-[359px];
 }
 
 .catalog-item-images {

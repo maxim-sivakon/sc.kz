@@ -364,3 +364,9 @@ header > div[data-info='mobile']{
     @apply ml-6;
     @apply hidden;
 }
+#menu-mobile-level.active-level-menu > span{
+    @apply text-orange-400;
+}
+#menu-mobile-level.active-level-menu > #mobile-menu-level-list{
+    @apply block;
+}
