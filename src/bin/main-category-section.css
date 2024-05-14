@@ -19,9 +19,13 @@
 .category-slide-item-menu li{
     @apply cursor-pointer;
     @apply font-medium;
+    @apply px-2;
+    @apply lg:text-left text-center;
 }
 .category-slide-item-menu.active{
-    @apply flex;
+
+    @apply  lg:flex grid gap-4 grid-cols-2 grid-rows-2 ;
+    /*display: ruby;*/
 }
 #main-category-two-level{
     @apply my-6;

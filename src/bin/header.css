@@ -1,24 +1,39 @@
 header {
-    @apply sticky;
     @apply top-0;
+    @apply sticky;
     @apply z-10;
 }
+#mobile-bar {
+    @apply fixed z-10;
+    @apply bottom-0;
+}
 
-header > div[data-info='computer']{
+header > div[data-info='computer'] {
     @apply hidden lg:block;
 }
 
-header > div[data-info='mobile']{
+header > div[data-info='mobile'], #mobile-bar {
     @apply bg-white;
-    @apply border-b-2;
-    @apply border-b-green-800;
     @apply block lg:hidden;
     @apply w-full;
 }
 
+header > div[data-info='mobile'] {
+    @apply border-b-2;
+    @apply border-b-green-800;
+}
+
+#mobile-bar {
+    @apply lg:hidden block;
+    @apply border-t-2;
+    @apply border-t-green-800;
+}
+
 #top-menu {
     @apply bg-green-800;
+    background-image: url('../images/header-top.svg');
 }
+
 
 #top-menu-items {
     @apply py-3.5;
@@ -27,24 +42,33 @@ header > div[data-info='mobile']{
 .middle-block {
     @apply py-4;
 }
-
+#mobile-bar-panel,
+#top-menu-mobile-items,
 #top-menu-items,
 .middle-block,
 #main-menu-pc,
-.mobile-list-control,
 #menu-control-pc {
     @apply flex;
     @apply items-center;
     @apply justify-between;
     @apply text-white;
 }
+#mobile-bar-panel > svg, #mobile-bar-panel > a{
+    @apply m-6;
+}
 
+#select-geo-location-mb {
+    @apply w-max;
+}
+
+#top-menu-mobile-items li,
 #top-menu-items li {
     @apply cursor-pointer;
     @apply text-xs;
     @apply font-medium;
 }
 
+#select-geo-location-mb,
 #select-geo-location-pc,
 #select-currency-pc,
 #select-language-pc,
@@ -65,6 +89,13 @@ header > div[data-info='mobile']{
     @apply w-4;
 }
 
+#select-geo-location-mb > svg {
+    @apply fill-green-800;
+    @apply flex-none;
+    @apply h-6;
+    @apply w-6;
+}
+
 #select-geo-location-pc > svg,
 #select-currency-pc > svg,
 #select-language-pc > svg {
@@ -72,22 +103,30 @@ header > div[data-info='mobile']{
     @apply flex-none;
 }
 
+#select-geo-location-mb {
+    @apply text-green-800;
+}
+
+#select-geo-location-mb:hover,
 #select-geo-location-pc:hover,
 #select-currency-pc:hover,
 #select-language-pc:hover {
     @apply text-yellow-300;
 }
 
+#select-geo-location-mb:active,
 #select-geo-location-pc:active,
 #select-currency-pc:active,
 #select-language-pc:active {
     @apply text-orange-400;
 }
 
+#select-geo-location-mb:hover svg,
 #select-geo-location-pc:hover svg {
     @apply fill-yellow-300;
 }
 
+#select-geo-location-mb:active svg,
 #select-geo-location-pc:active svg {
     @apply fill-orange-400;
 }
@@ -130,11 +169,9 @@ header > div[data-info='mobile']{
 .middle-block > a > svg {
     @apply w-36;
 }
-.mobile-header-logo{
+
+.mobile-header-logo {
     @apply w-28 !important;
-}
-.mobile-list-control > svg{
-    @apply mx-4 !important;
 }
 
 #control-user-pc > svg,
@@ -221,7 +258,7 @@ header > div[data-info='mobile']{
 
 #main-search-line {
     @apply flex;
-    padding: 60px 0;
+    @apply lg:py-16 py-8;
 }
 
 #main-search {
@@ -241,7 +278,7 @@ header > div[data-info='mobile']{
     border: none;
     background: transparent;
     color: rgba(5, 37, 7, 1);
-    @apply text-2xl;
+    @apply lg:text-2xl text-xl;
     @apply font-medium;
     @apply lowercase;
 }
@@ -278,7 +315,7 @@ header > div[data-info='mobile']{
     @apply m-auto;
     @apply z-50;
     padding: 40px;
-    width: 620px;
+    @apply lg:w-[620px] w-auto;
     @apply h-max;
     @apply bg-green-800;
 }
@@ -307,11 +344,12 @@ header > div[data-info='mobile']{
     @apply text-orange-400;
 }
 
-#main-mobile-menu-bar{
+#main-mobile-menu-bar {
     @apply hidden;
     @apply relative;
 }
-#main-mobile-menu-bar-body{
+
+#main-mobile-menu-bar-body {
     @apply z-50;
     @apply py-10;
     @apply fixed;
@@ -324,31 +362,36 @@ header > div[data-info='mobile']{
     @apply items-start;
     @apply justify-center;
     @apply overflow-auto;
+    background-image: url('../images/header-top.svg');
 }
+
 #main-mobile-menu-bar-body > ul > li,
-#mobile-menu-level-list > li{
+#mobile-menu-level-list > li {
     @apply py-3;
 }
+
 #main-mobile-menu-bar-body > ul > li > a,
 #main-mobile-menu-bar-body > ul > li > span,
-#mobile-menu-level-list > li > a
-{
+#mobile-menu-level-list > li > a {
     @apply text-lg;
     @apply text-white;
     @apply font-medium;
 }
+
 #main-mobile-menu-bar-body > ul > li > a:hover,
 #main-mobile-menu-bar-body > ul > li > span:hover,
-#mobile-menu-level-list > li > a:hover{
+#mobile-menu-level-list > li > a:hover {
     @apply text-yellow-300;
     @apply cursor-pointer;
 }
-#mobile-menu-close{
+
+#mobile-menu-close {
     @apply absolute;
     @apply top-4;
     @apply left-4;
 }
-#mobile-menu-close svg{
+
+#mobile-menu-close svg {
     @apply w-8;
 }
 
@@ -360,13 +403,16 @@ header > div[data-info='mobile']{
 #mobile-menu-close svg:active {
     @apply text-orange-400;
 }
+
 #mobile-menu-level-list {
     @apply ml-6;
     @apply hidden;
 }
-#menu-mobile-level.active-level-menu > span{
+
+#menu-mobile-level.active-level-menu > span {
     @apply text-orange-400;
 }
-#menu-mobile-level.active-level-menu > #mobile-menu-level-list{
+
+#menu-mobile-level.active-level-menu > #mobile-menu-level-list {
     @apply block;
 }

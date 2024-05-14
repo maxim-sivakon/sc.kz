@@ -4,11 +4,11 @@
 }
 .container-news-item{
     @apply p-8;
-    @apply w-[57%];
+    @apply md:w-[57%] w-auto;
 }
 
 .last-news-item{
-    @apply h-60;
+    @apply md:h-60 h-max;
     @apply relative;
     @apply basis-2/4;
     @apply mb-4;
@@ -23,6 +23,7 @@
     @apply xl:ml-2;
 }
 .last-news-item > img{
+    @apply md:block hidden;
     @apply h-full;
     @apply absolute top-0 -right-3.5;
 }

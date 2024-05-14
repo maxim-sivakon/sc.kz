@@ -209,7 +209,8 @@
         @apply bg-green-800;
         @apply fixed;
         @apply rounded-full;
-        @apply bottom-2 right-2;
+        @apply right-2;
+        @apply lg:bottom-2 bottom-24;
         @apply cursor-pointer;
     }
     #page-top:hover{
