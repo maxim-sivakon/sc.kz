@@ -1,5 +1,5 @@
 .item-about-us {
-    @apply md:h-60 h-max;
+    @apply h-max md:h-60;
     @apply relative;
     @apply basis-3/4;
     @apply mb-4;
@@ -9,8 +9,9 @@
 }
 
 .item-about-us-text {
-    @apply mx-10 mt-6;
-    @apply w-max;
+    @apply relative;
+    @apply m-10 md:mx-10 md:mt-6;
+    @apply w-auto md:w-max;
     @apply z-20;
 }
 
@@ -20,7 +21,7 @@
     @apply text-2xl;
     @apply font-bold;
     @apply ml-6 mt-6;
-    @apply w-max;
+    @apply w-auto md:w-max;
 }
 
 .item-about-us-text-title,
@@ -30,7 +31,7 @@
 }
 
 .item-about-us-text-title {
-    @apply text-5xl;
+    @apply text-2xl sm:text-3xl md:text-5xl;
     @apply font-extrabold;
     @apply uppercase;
     @apply mb-2;
@@ -54,48 +55,96 @@
 }
 
 .desc-about-us-text {
-    @apply flex items-stretch;
+    @apply block sm:flex items-stretch;
 }
 
 .desc-about-us-text-tripl {
-    @apply flex items-start;
+    @apply block md:flex items-start;
 }
-.desc-about-us-text-tripl-text{
+
+.desc-about-us-text-tripl-text {
     @apply text-justify;
 }
-.desc-about-us-title{
+
+.desc-about-us-title {
     @apply mr-6;
     @apply text-6xl;
     @apply font-extrabold;
     @apply text-green-850;
     @apply uppercase;
 }
-.desc-about-us-title-two{
+
+.desc-about-us-title-two {
     @apply text-xl;
     @apply font-extrabold;
     @apply text-green-850;
     @apply mb-8;
 }
-.desc-about-us-text-tripl-text:nth-child(2){
-    @apply mx-14;
+
+.desc-about-us-text-tripl-text:nth-child(2) {
+    @apply my-7 md:mx-14;
 }
-.about-us-list-comand{
+
+.about-us-list-comand {
     @apply mt-8;
 }
-.about-us-list-comand-title{
-    @apply text-4xl;
+
+.about-us-list-comand-title {
+    @apply text-2xl md:text-4xl;
     @apply font-extrabold;
     @apply text-black;
     @apply uppercase;
 }
-.about-us-list-comand-email{
+
+.about-us-list-comand-email {
     @apply text-xl;
     @apply font-bold;
     @apply inline-block;
 }
-.about-us-list-comand-email:hover{
+
+.about-us-list-comand-email:hover {
     @apply text-yellow-300;
 }
-.about-us-list-comand-email:active{
+
+.about-us-list-comand-email:active {
     @apply text-orange-300;
+}
+
+.about-us-list-employee-one-items {
+    @apply grid grid-cols-1 gap-1 leading-6;
+}
+.about-us-list-employee-tree-items{
+    @apply grid grid-cols-1 gap-1 lg:grid-cols-3 lg:gap-3 leading-6;
+}
+.about-us-list-employee-four-items{
+    @apply grid grid-cols-1 gap-1 lg:grid-cols-4 lg:gap-4 leading-6;
+}
+
+.about-us-list-employee-block {
+    @apply grid rounded-lg justify-items-center;
+}
+
+.about-us-list-employee-block-item {
+    @apply contents items-center justify-center;
+}
+
+.about-us-list-employee-block-item img {
+    @apply w-48;
+}
+.about-us-list-employee-name{
+    @apply text-lg;
+    @apply font-extrabold;
+    @apply text-green-850;
+    @apply uppercase;
+}
+.about-us-list-employee-city{
+    @apply w-48;
+    @apply text-center;
+    @apply text-green-850;
+    @apply text-sm;
+}
+.about-us-list-employee-comment{
+    @apply text-center;
+    @apply text-sm;
+    @apply w-64;
 }
