@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./footer.css";
 @import "./main-banner.css";
+@import "./about-us.css";
 @import "./main-category-section.css";
 @import "./main-last-news.css";
 @import "./catalog-item.css";
@@ -221,5 +222,10 @@
     }
     #page-top:hover svg{
         @apply fill-yellow-300;
+    }
+    .container-white{
+        @apply bg-white;
+        @apply rounded-xl;
+        @apply p-10;
     }
 }

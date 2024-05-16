@@ -20,10 +20,12 @@
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    @apply z-10;
     left: auto;
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    @apply z-10;
     right: auto;
 }
 

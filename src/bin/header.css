@@ -1,7 +1,7 @@
 header {
     @apply top-0;
     @apply sticky;
-    @apply z-10;
+    @apply z-20;
 }
 #mobile-bar {
     @apply fixed z-10;
