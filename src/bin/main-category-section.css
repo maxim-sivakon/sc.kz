@@ -10,23 +10,26 @@
     @apply text-red-800;
 }
 
-.category-slide-item-menu{
+.category-slide-item-menu {
     display: none;
     @apply items-center;
     @apply justify-between;
     @apply text-black;
 }
-.category-slide-item-menu li{
+
+.category-slide-item-menu li {
     @apply cursor-pointer;
     @apply font-medium;
     @apply px-2;
     @apply lg:text-left text-center;
 }
-.category-slide-item-menu.active{
 
-    @apply  lg:flex grid gap-4 grid-cols-2 grid-rows-2 ;
+.category-slide-item-menu.active {
+
+    @apply lg:flex grid gap-4 grid-cols-2 grid-rows-2 ;
     /*display: ruby;*/
 }
-#main-category-two-level{
+
+#main-category-two-level {
     @apply my-6;
 }

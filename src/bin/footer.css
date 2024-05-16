@@ -1,10 +1,11 @@
-footer{
+footer {
     @apply relative;
     @apply bg-green-850;
     @apply lg:pb-0 pb-20;
     @apply bg-cover;
     background-image: url('../images/background_footer.svg');
 }
+
 footer::before {
     content: '';
     position: absolute;
@@ -15,43 +16,55 @@ footer::before {
     @apply bg-cover;
     background-image: url('../images/background_footer_line.svg') !important;
 }
-.footer-grid{
+
+.footer-grid {
     @apply grid grid-cols-1 gap-8 lg:grid-cols-3;
 }
 
-.footer-items-social{
+.footer-items-social {
     @apply mt-8 flex justify-center gap-6 sm:justify-start md:gap-8;
 }
-.footer-items-menu{
+
+.footer-items-menu {
     @apply grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2;
 }
-.footer-items-menu-col{
+
+.footer-items-menu-col {
     @apply text-center sm:text-left;
 }
-.footer-items-menu-title{
+
+.footer-items-menu-title {
     @apply text-lg font-medium text-white;
 }
-.footer-items-menu-title-two{
+
+.footer-items-menu-title-two {
     @apply text-lg font-medium text-white mt-4;
 }
-.footer-items-menu-ul{
+
+.footer-items-menu-ul {
     @apply mt-4 space-y-4 text-sm;
 }
-.footer-items-menu-ul > li a{
+
+.footer-items-menu-ul > li a {
     @apply text-white;
 }
-.footer-items-menu-ul > li a:hover{
+
+.footer-items-menu-ul > li a:hover {
     @apply text-yellow-300;
 }
-.footer-copyright{
+
+.footer-copyright {
     @apply mt-12 border-t border-gray-100 pt-6;
 }
-.footer-copyright-container{
+
+.footer-copyright-container {
     @apply text-center sm:flex sm:justify-between sm:text-left;
 }
-.footer-copyright-text-first{
+
+.footer-copyright-text-first {
     @apply text-sm text-white;
 }
-.footer-copyright-text-second{
+
+.footer-copyright-text-second {
     @apply mt-4 text-sm text-white sm:order-first sm:mt-0;
 }

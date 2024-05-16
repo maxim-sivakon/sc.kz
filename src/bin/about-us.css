@@ -113,10 +113,12 @@
 .about-us-list-employee-one-items {
     @apply grid grid-cols-1 gap-1 leading-6;
 }
-.about-us-list-employee-tree-items{
+
+.about-us-list-employee-tree-items {
     @apply grid grid-cols-1 gap-1 lg:grid-cols-3 lg:gap-3 leading-6;
 }
-.about-us-list-employee-four-items{
+
+.about-us-list-employee-four-items {
     @apply grid grid-cols-1 gap-1 lg:grid-cols-4 lg:gap-4 leading-6;
 }
 
@@ -131,19 +133,22 @@
 .about-us-list-employee-block-item img {
     @apply w-48;
 }
-.about-us-list-employee-name{
+
+.about-us-list-employee-name {
     @apply text-lg;
     @apply font-extrabold;
     @apply text-green-850;
     @apply uppercase;
 }
-.about-us-list-employee-city{
+
+.about-us-list-employee-city {
     @apply w-48;
     @apply text-center;
     @apply text-green-850;
     @apply text-sm;
 }
-.about-us-list-employee-comment{
+
+.about-us-list-employee-comment {
     @apply text-center;
     @apply text-sm;
     @apply w-64;

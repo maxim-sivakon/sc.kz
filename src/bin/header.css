@@ -3,6 +3,7 @@ header {
     @apply sticky;
     @apply z-20;
 }
+
 #mobile-bar {
     @apply fixed z-10;
     @apply bottom-0;
@@ -42,6 +43,7 @@ header > div[data-info='mobile'] {
 .middle-block {
     @apply py-4;
 }
+
 #mobile-bar-panel,
 #top-menu-mobile-items,
 #top-menu-items,
@@ -53,7 +55,8 @@ header > div[data-info='mobile'] {
     @apply justify-between;
     @apply text-white;
 }
-#mobile-bar-panel > svg, #mobile-bar-panel > a{
+
+#mobile-bar-panel > svg, #mobile-bar-panel > a {
     @apply m-6;
 }
 

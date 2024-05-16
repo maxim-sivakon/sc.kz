@@ -1,5 +1,5 @@
 
-.btn-prime{
+.btn-prime {
     @apply block;
     @apply rounded-full;
     @apply text-sm;
