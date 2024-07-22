@@ -82,7 +82,7 @@
 }
 
 .desc-about-us-text-tripl-text:nth-child(2) {
-    @apply my-7 md:mx-14;
+    @apply my-7 md:mx-14 md:my-0;
 }
 
 .about-us-list-comand {
