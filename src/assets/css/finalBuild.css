@@ -1697,15 +1697,25 @@ section[data-code='banner'] > div[data-info='mobile'] {
   border-radius: 0.5rem;
 }
 
+.detail-blog-container-files-list {
+  padding: 0.5rem;
+  padding-right: 0.75rem;
+  border-bottom-width: 2px;
+  border-style: dotted;
+  --tw-border-opacity: 1;
+  border-color: rgb(34 97 43 / var(--tw-border-opacity));
+}
+
+.detail-blog-container-files-list:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .detail-blog-container-files-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-bottom-width: 2px;
-  border-style: dotted;
-  --tw-border-opacity: 1;
-  border-color: rgb(34 97 43 / var(--tw-border-opacity));
 }
 
 .detail-blog-container-files-item-image {

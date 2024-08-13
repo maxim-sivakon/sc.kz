@@ -3,7 +3,8 @@
     @apply flex-row;
     @apply justify-between;
 }
-.blog-header-item{
+
+.blog-header-item {
     @apply relative;
     @apply mb-4;
 }
@@ -23,12 +24,12 @@
     @apply text-green-800;
 }
 
-.blog-items{
+.blog-items {
     @apply grid gap-x-8 gap-y-4 xl:grid-cols-2 grid-cols-1;
     @apply mb-4;
 }
 
-.blog-item{
+.blog-item {
     @apply md:h-60 h-max;
     @apply relative block;
     @apply bg-green-800;
@@ -36,10 +37,11 @@
     @apply overflow-hidden;
 }
 
-.container-blog-item{
+.container-blog-item {
     @apply p-8;
     @apply md:w-[57%] w-auto;
 }
+
 .blog-item-title,
 .blog-item-description {
     @apply text-white;
@@ -51,6 +53,7 @@
     @apply uppercase;
     @apply mb-2;
 }
+
 .blog-item > img {
     @apply md:block hidden;
     @apply h-full;

@@ -84,14 +84,17 @@
 .detail-blog-container.active-tab {
     @apply block;
 }
-.detail-blog-additional-info{
+
+.detail-blog-additional-info {
     @apply mt-4;
 }
+
 .detail-blog-tab {
     @apply text-sm;
     @apply font-medium;
     @apply pr-10 py-2;
 }
+
 .detail-blog-tab:hover {
     @apply text-orange-400;
 }
@@ -105,20 +108,24 @@
     @apply border-b-2;
     @apply border-b-green-800;
 }
-.detail-blog-container[data-id="links"] a{
+
+.detail-blog-container[data-id="links"] a {
     @apply text-sm;
     @apply font-medium;
     @apply my-4 block w-max;
     @apply text-orange-400;
 }
-.detail-blog-container[data-id="links"] a:hover{
+
+.detail-blog-container[data-id="links"] a:hover {
     @apply text-green-850;
 }
-.detail-blog-container-video-item-youtube{
+
+.detail-blog-container-video-item-youtube {
     @apply flex flex-wrap;
     @apply w-full;
 }
-.detail-blog-container-video-item-youtube-iframe{
+
+.detail-blog-container-video-item-youtube-iframe {
     @apply bg-green-800;
     @apply border-2 border-green-800;
     @apply overflow-hidden;
@@ -127,31 +134,45 @@
     @apply p-1;
 }
 
-.detail-blog-container-video-item-youtube-iframe iframe{
+.detail-blog-container-video-item-youtube-iframe iframe {
     @apply rounded-lg;
 }
-.detail-blog-container-files-item{
+
+.detail-blog-container-files-list {
+    @apply p-2 pr-3;
+    @apply border-dotted border-b-2 border-green-800;
+}
+
+.detail-blog-container-files-list:hover {
+    @apply bg-gray-100;
+}
+
+.detail-blog-container-files-item {
     @apply flex flex-row;
     @apply items-center;
     @apply justify-between;
-    @apply border-dotted border-b-2 border-green-800;
 
 }
-.detail-blog-container-files-item-image{
+
+.detail-blog-container-files-item-image {
     @apply w-10;
 }
-.detail-blog-container-files-item-name{
+
+.detail-blog-container-files-item-name {
     @apply basis-1/4;
 }
-.detail-blog-container-files-item-size{
+
+.detail-blog-container-files-item-size {
     @apply basis-2/4;
     @apply text-right;
 }
-.detail-blog-container-files-item-link-to-download{
+
+.detail-blog-container-files-item-link-to-download {
     @apply basis-12;
     @apply text-right;
 }
-.detail-blog-container-files-item-link-to-download:hover{
+
+.detail-blog-container-files-item-link-to-download:hover {
     @apply text-orange-400;
     @apply cursor-pointer;
 }
