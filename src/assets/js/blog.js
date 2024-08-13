@@ -2,10 +2,13 @@ document.addEventListener('readystatechange', function () {
     if (document.readyState === "complete") {
 
         // список разделов блога
-        document.getElementById("blog-sections-list").addEventListener("change", function () {
-            var selectedValue = this.value;
-            window.location.href = selectedValue;
-        });
+        var blogSectionsList = document.getElementById("blog-sections-list");
+        if(blogSectionsList !== null){
+            blogSectionsList.addEventListener("change", function () {
+                var selectedValue = this.value;
+                window.location.href = selectedValue;
+            });
+        }
 
         // tabs detail blog
         document.querySelectorAll('.detail-blog-tab').forEach(el =>
@@ -23,5 +26,6 @@ document.addEventListener('readystatechange', function () {
                 }
             })
         );
+
     }
 });
