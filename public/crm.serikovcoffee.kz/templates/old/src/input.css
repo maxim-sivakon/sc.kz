@@ -1,0 +1,434 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Bold.eot');
+        src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Bold.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Light.eot');
+        src: local('Gotham Pro Light'), local('GothamPro-Light'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Light.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Light.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Black.eot');
+        src: local('Gotham Pro Black'), local('GothamPro-Black'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Black.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Black.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Black.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Italic.eot');
+        src: local('Gotham Pro Italic'), local('GothamPro-Italic'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Italic.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Italic.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Italic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro Narrow';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Bold.eot');
+        src: local('Gotham Pro Narrow Bold'), local('GothamProNarrow-Bold'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Bold.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Bold.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Medium.eot');
+        src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Medium.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Medium.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BoldItalic.eot');
+        src: local('Gotham Pro Bold Italic'), local('GothamPro-BoldItalic'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BoldItalic.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BoldItalic.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BoldItalic.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro.eot');
+        src: local('Gotham Pro'), local('GothamPro'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-MediumItalic.eot');
+        src: local('Gotham Pro Medium Italic'), local('GothamPro-MediumItalic'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-MediumItalic.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-MediumItalic.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BlackItalic.eot');
+        src: local('Gotham Pro Black Italic'), local('GothamPro-BlackItalic'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BlackItalic.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BlackItalic.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-BlackItalic.ttf') format('truetype');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro Narrow';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Medium.eot');
+        src: local('Gotham Pro Narrow Medium'), local('GothamProNarrow-Medium'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Medium.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Medium.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamProNarrow-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-LightItalic.eot');
+        src: local('Gotham Pro Light Italic'), local('GothamPro-LightItalic'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-LightItalic.woff2') format('woff2'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-LightItalic.woff') format('woff'),
+        url('https://crm.serikovcoffee.kz/templates/old/fonts/GothamPro-LightItalic.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    html {
+        font-family: 'Gotham Pro', serif;
+        scroll-behavior: smooth;
+        text-rendering: geometricPrecision;
+    }
+
+    body {
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/pattern.svg');
+        background-color: #ededed;
+    }
+
+    /* style background header*/
+    .headerGreenBackground {
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_header.svg');
+    }
+
+    /* style background footer*/
+    .footerBackground:before {
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_footer.svg');
+    }
+
+    .footerBackground:after {
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_footer_green_line.svg');
+    }
+
+    .dropdown:hover > .dropdown-content {
+        display: block;
+    }
+
+    .backgroundAboutUsOne:before {
+        position: absolute;
+        top: -14px;
+        right: 0;
+        height: 471px;
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/romb.svg');
+    }
+
+    .backgroundAboutUsTwo:after {
+        background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/aboutus_style_1.svg');
+        height: 301px;
+        width: 933px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .slider__container {
+        overflow: hidden;
+    }
+
+    .slider__wrapper {
+        overflow: hidden;
+        border-radius: 0 0 14px 14px;
+    }
+
+    .slider__items {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .slider_disable-transition {
+        transition: none;
+    }
+
+    .slider__item {
+        user-select: none;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 348px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 7rem;
+    }
+
+    .slider__item img {
+        width: 100%;
+        height: 348px;
+    }
+
+    /* кнопки влево и вправо */
+    .slider__control {
+        position: absolute;
+        top: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 50px;
+        fill: #ffffff;
+        text-align: center;
+    }
+
+    .slider__control_hide {
+        display: none;
+    }
+
+    .slider__control[data-slide="prev"] {
+        left: 0;
+    }
+
+    .slider__control[data-slide="next"] {
+        right: 0;
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+        fill: #fde047;
+        color: #ffffff;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    .slider__control:active {
+        fill: #ea580c;
+    }
+
+    .slider__control::before {
+        position: relative;
+        left: 20px;
+        content: "";
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background: transparent no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    .slider__control[data-slide="prev"] {
+        transform: rotate(180deg);
+    }
+
+    .slider__control[data-slide="prev"],
+    .slider__control[data-slide="next"] {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 20px;
+        box-sizing: initial;
+    }
+
+    .slider__control[data-slide="prev"]::before {
+
+    }
+
+    .slider__control[data-slide="next"]::before {
+
+    }
+
+    /* индикаторы */
+    .slider__indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 15%;
+        margin-bottom: 0;
+        margin-left: 15%;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .slider__indicators li {
+        flex: 0 1 auto;
+        box-sizing: content-box;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        margin-left: 5px;
+        text-indent: -999px;
+        background-color: rgb(255 255 255 / 50%);
+        background-clip: padding-box;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .slider__indicators li.active {
+        background-color: rgb(255 255 255 / 90%);
+    }
+
+    .slider__indicators li:hover,
+    .slider__indicators li:focus {
+        background-color: #fde047;
+    }
+
+    .slider__indicators li:active {
+        background-color: #ea580c;
+    }
+
+
+    /* product type */
+    .feature_circle {
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #0d4524;
+        letter-spacing: 0;
+        margin: 0 1px;
+        bottom: 4px;
+    }
+
+    .feature_circle.full {
+        background-color: #0d4524;
+    }
+
+    .feature_circle.fifty {
+        background-image: linear-gradient(270deg, #fff 50%, transparent 50%),
+        linear-gradient(270deg, #fff 50%, #0d4524 50%);
+    }
+
+    .feature_circle.fifty:after {
+        border-radius: 0;
+        height: 50%;
+        border: 0;
+        display: block;
+        content: "";
+        background: #0d4524;
+        position: absolute;
+    }
+
+    /* header scroll */
+    header.mini {
+        top: -49px;
+    }
+
+    .mini #logotype svg {
+        width: 145px;
+        transition: all 0.2s ease-out;
+    }
+
+    .mini #header_bigLine > div {
+        padding: 0.5rem;
+        transition: all 0.2s ease-out;
+    }
+
+    #btn_pageUp {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        right: 25px;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+    }
+
+    #btn_pageUp svg {
+        width: 16px;
+        fill: #fff;
+        transform: rotate(-90deg);
+        position: relative;
+        top: 12px;
+        left: 12px;
+    }
+
+
+
+
+}

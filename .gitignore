@@ -2,3 +2,22 @@
 .DS_Store
 
 /src/node_modules/*
+
+/core/bitrix/*
+/core/upload/*
+
+/public/crm.serikovcoffee.kz/bitrix/*
+/public/crm.serikovcoffee.kz/upload/*
+/public/crm.serikovcoffee.kz/local/*
+
+/public/dev.serikovcoffee.kz/bitrix/*
+/public/dev.serikovcoffee.kz/upload/*
+/public/dev.serikovcoffee.kz/local/*
+
+/public/shop.serikovcoffee.kz/bitrix/*
+/public/shop.serikovcoffee.kz/upload/*
+/public/shop.serikovcoffee.kz/local/*
+
+/public/serikovcoffee.kz/bitrix/*
+/public/serikovcoffee.kz/upload/*
+/public/serikovcoffee.kz/local/*

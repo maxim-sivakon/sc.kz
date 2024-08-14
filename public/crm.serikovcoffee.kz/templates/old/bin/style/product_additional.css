@@ -1,0 +1,93 @@
+.product_additional {
+  top: 19px;
+  right: 12px;
+  position: absolute;
+}
+
+.product_favorite {
+  cursor: pointer;
+}
+
+.product_favorite svg,
+.product_count_see svg {
+  fill: var(--color-brand);
+  width: 30px;
+}
+
+.product_favorite:hover svg {
+  fill: var(--color-yellow);
+}
+
+.product_favorite:active svg {
+  fill: var(--color-orange);
+}
+
+.product_additional_item {
+  padding: 10px 0;
+  width: 40px;
+  text-align: center;
+}
+
+.product_count_see > div {
+  color: var(--color-brand);
+  font-size: 12px;
+}
+
+.product_additional_item svg {
+  margin: auto 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.product_green_line {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0;
+  width: 100%;
+  background-color: var(--color-brand);
+  display: flex;
+  justify-content: space-around;
+}
+
+.product_select_count {
+  display: flex;
+  height: max-content;
+  position: relative;
+  top: 7px;
+}
+
+.product_select_count_min,
+.product_select_count_max {
+  cursor: pointer;
+  margin: 0 18px;
+}
+
+.product_select_count_min svg,
+.product_select_count_max svg {
+  fill: var(--color-white);
+  width: 20px;
+}
+
+.product_select_count_min:hover svg,
+.product_select_count_max:hover svg {
+  fill: var(--color-yellow);
+}
+
+.product_select_count_min:active svg,
+.product_select_count_max:active svg {
+  fill: var(--color-coral);
+}
+
+.product_select_count_min svg {
+  transform: rotate(180deg);
+}
+
+.product_select_count_num {
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+

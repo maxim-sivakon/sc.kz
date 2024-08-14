@@ -1,0 +1,120 @@
+.product_list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.product_item {
+  position: relative;
+  flex: 1 1 auto;
+  background-color: var(--color-white);
+  width: 426px;
+  height: 680px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.product_image {
+  display: block;
+  margin: 0px auto 0;
+}
+
+.product_image,
+.product_image img {
+  width: 346px;
+  height: 300px;
+}
+
+.product_name {
+  display: block;
+  color: var(--color-brand);
+  font-size: 34px;
+  font-weight: 900;
+  margin: 11px 0 0 38px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 278px;
+  line-height: 37px;
+  letter-spacing: 1.4px;
+}
+
+.product_name.machine{
+  width: 336px;
+}
+
+.product_coffee_obrabotka {
+  color: var(--color-brand);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 11px 0 22px 38px;
+  text-decoration: none;
+  cursor: default;
+  letter-spacing: -0.15px;
+  font-style: italic;
+}
+
+.product_specifications {
+  color: var(--color-brand);
+  font-size: 13px;
+  margin: 11px 0 0 38px;
+  text-decoration: none;
+  cursor: default;
+}
+
+.product_specifications.tea .product_specification {
+  margin: 38px 0;
+}
+
+.product_specification {
+  margin-bottom: 10px;
+}
+
+.product_specification_title {
+  vertical-align: top;
+  width: 110px;
+}
+
+.product_specification_value {
+  width: 270px;
+  font-weight: 500;
+}
+
+.product_specification_title,
+.product_specification_value {
+  display: inline-block;
+}
+
+.product_feature_black, .product_feature_white {
+  display: flex;
+  flex-flow: row wrap;
+  width: inherit;
+  margin: 0 0 0 27px;
+}
+
+.product_feature_white {
+  font-size: 9px;
+  margin: 22px 0 0 24px;
+}
+.product_card_price{
+  font-weight: 900;
+}
+
+
+.product_feature_title {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.product_feature_text {
+  width: 100px;
+  text-align: center;
+}
+
+.product_feature_white .product_feature_block {
+  margin: 0;
+}
+
+.product_feature_block {
+  margin: 0 2px;
+}

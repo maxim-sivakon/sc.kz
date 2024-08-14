@@ -1,0 +1,243 @@
+#product_detail {
+  padding: 50px;
+  margin: 15px 0;
+  background-color: var(--color-white);
+  border-radius: 25px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#product_detail_name {
+  text-transform: uppercase;
+  font-size: 57px;
+  font-weight: 900;
+  color: var(--color-brand);
+  text-align: center;
+  background: linear-gradient(90deg,#22612bb8,#22612b 50%,#042507);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product_definition {
+  margin: 30px 0;
+}
+
+.product_definition-name {
+  color: var(--color-coral);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-left: 14px;
+  margin-top: 3px;
+}
+
+.product_main_content {
+  margin-top: 100px;
+  flex: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product_main_content > .product_specifications {
+  margin: 0;
+  font-size: 14px;
+}
+
+.product_definition-list, .product_definition-list_little {
+  padding: 8px 0;
+}
+
+.product_definition-list_little {
+  width: 300px;
+}
+
+.product_definition-list_little .product_definition-list_one_value {
+  font-weight: 500;
+  width: 350px;
+  font-style: italic;
+  font-size: 12px;
+  color: #000000;
+}
+
+.product_definition-list_name {
+  width: 100px;
+  padding-right: 50px;
+  font-weight: 600;
+}
+
+.product_definition-list_value {
+  font-weight: 400;
+}
+
+.product_definition-list_name,
+.product_definition-list_value {
+  display: inline-block;
+}
+
+.product_definition-list_one_value {
+  width: 250px;
+  font-weight: 400;
+}
+
+.product_description {
+  color: var(--color-brand);
+}
+
+.product_description_name {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.product_description_text {
+  padding: 10px 0;
+}
+
+.product_specifications_add .product_definition-list_value {
+  font-size: 16px;
+}
+
+.product_specifications_add .product_specifications {
+  margin-left: 220px;
+  margin-top: 35px;
+  z-index: 4;
+}
+
+.product_estimation {
+  position: absolute;
+  top: 0;
+  left: 63px;
+}
+
+.product_estimation svg {
+  width: 120px;
+}
+
+.product_estimation_value {
+  text-transform: uppercase;
+  top: 20px;
+  left: 11px;
+  position: absolute;
+  font-size: 18px;
+  color: var(--color-white);
+  font-weight: 900;
+  width: 95px;
+  text-align: center;
+}
+
+.product_estimation_num {
+  font-size: 36px;
+}
+
+.product_panel_commerce {
+  background-color: var(--color-brand);
+  height: 350px;
+  width: 550px;
+  position: relative;
+  left: 50px;
+  top: 61px;
+}
+
+.product_panel_commerce::before {
+  background-position: center center;
+  background-size: cover;
+  content: "";
+  width: 100%;
+  height: 349px;
+  background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/background_detail_01.svg');
+  position: absolute;
+  z-index: 1;
+  opacity: 0.05;
+}
+
+.product_panel_images {
+  position: absolute;
+  top: -150px;
+  z-index: 2;
+  right: 220px;
+}
+
+.product_panel_images img {
+  width: 750px;
+}
+
+.product_panel_commerce_block,
+.product_panel_commerce .product_green_line {
+  z-index: 3;
+}
+
+.product_panel_commerce_block:nth-child(1) {
+  padding-top: 75px;
+}
+
+.product_panel_commerce_block {
+  padding: 15px 0;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 60%;
+  left: 33%;
+  font-size: 16px;
+}
+
+.product_panel_commerce .product_green_line {
+  width: 80%;
+  background: none;
+  float: right;
+  position: relative;
+}
+
+.product_panel_commerce_name {
+  width: 110px;
+}
+
+.product_panel_commerce_value {
+  width: 150px;
+}
+
+.prod_price {
+  width: max-content;
+  position: relative;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.price_old {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  font-size: 14px;
+}
+
+.price_old::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 8px;
+  background: #ff0000;
+  right: 0;
+}
+.product_panel{
+  position: relative;
+}
+.product_panel .product_feature_black,
+.product_panel .product_feature_white{
+  position: absolute;
+  left: -280px;
+  right: 0;
+  bottom: -180px;
+  margin: auto;
+  z-index: 4;
+}
+.product_panel .product_feature_block{
+  width: 120px;
+}

@@ -1,0 +1,26 @@
+.bread_crumb {
+  font-family: 'Gotham Pro', serif;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.bread_crumb li {
+  font-weight: 400;
+  display: inline;
+  font-size: 16px;
+}
+
+.bread_crumb li.active {
+  color: var(--color-bordo);
+  font-weight: 700;
+}
+
+.bread_crumb li a {
+  color: var(--color-bordo);
+  text-decoration: none;
+}
+
+.bread_crumb li a:hover {
+  color: var(--color-bordo);
+}

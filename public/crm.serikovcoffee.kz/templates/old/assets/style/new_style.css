@@ -1,0 +1,159 @@
+body {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/pattern.svg');
+}
+
+/* style background header*/
+.headerGreenBackground {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_header.svg');
+}
+
+/* style background footer*/
+.footerBackground:before {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_footer.svg');
+}
+
+.footerBackground:after {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/bg_footer_green_line.svg');
+}
+
+/* btn page up footer*/
+#btn_pageUp {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: -40px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+#btn_pageUp svg {
+    width: 16px;
+    fill: var(--color-white);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+
+/* in product item hover favorite */
+.item_favorite:hover svg {
+}
+
+.item_favorite:hover svg {
+    fill: #FCDC00;
+}
+
+.item_favorite:active svg {
+    fill: #EC673C;
+}
+
+.productItemSelect:hover ul {
+    display: block;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-number-input input:focus {
+    outline: none !important;
+}
+
+.custom-number-input button:focus {
+    outline: none !important;
+}
+
+/* product type */
+.feature_circle {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-brand);
+    letter-spacing: 0;
+    margin: 0 1px;
+    bottom: 4px;
+}
+
+.feature_circle.full {
+    background-color: var(--color-brand);
+}
+
+.feature_circle.fifty {
+    background-image: linear-gradient(270deg, var(--color-white) 50%, transparent 50%),
+    linear-gradient(270deg, var(--color-white) 50%, var(--color-brand) 50%);
+}
+
+.feature_circle.fifty:after {
+    border-radius: 0;
+    height: 50%;
+    border: 0;
+    display: block;
+    content: "";
+    background: var(--color-brand);
+    position: absolute;
+}
+
+/* header scroll */
+header.mini {
+    top: -49px;
+}
+
+.mini #logotype svg {
+    width: 145px;
+    transition: all 0.2s ease-out;
+}
+
+.mini #header_bigLine > div {
+    padding: 0.5rem;
+    transition: all 0.2s ease-out;
+}
+
+
+/* mini basket */
+
+#btnBasket:hover #miniBasket {
+    display: block;
+}
+
+#btnBasket:hover > svg {
+    fill: #FCDC00;
+}
+
+/* learning */
+.bgLearning {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/learning_city.svg');
+}
+
+.bgLearningDetail {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/learning_detial.svg');
+}
+
+/* aboutUs */
+.backgroundAboutUsOne:before {
+    position: absolute;
+    top: -14px;
+    right: 0;
+    height: 471px;
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/romb.svg');
+}
+
+.backgroundAboutUsDetail:after {
+    height: 414px;
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/romb.svg');
+}
+
+.backgroundAboutUsTwo:after {
+    background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/svg/auth_1.svg');
+    height: 301px;
+    width: 933px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

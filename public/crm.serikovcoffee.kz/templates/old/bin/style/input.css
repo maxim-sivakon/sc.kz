@@ -1,0 +1,28 @@
+.btn{
+  border-radius: 50px;
+  font-weight: 900;
+  text-transform: lowercase;
+  border: none;
+  width: 145px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn.yellow{
+  background-color: var(--color-yellow);
+  color: var(--color-brand);
+}
+
+.btn.yellow:hover {
+  background-color: var(--color-orange);
+}
+
+.btn.yellow:active {
+  background-color: var(--color-coral);
+  color: var(--color-white);
+}
+
+.btn.long{
+  width: 300px;
+}
+

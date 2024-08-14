@@ -1,0 +1,135 @@
+:root {
+  --color-brand: #22612b;
+  --color-brand-dark: #042507;
+  --color-yellow: #fcdc00;
+  --color-orange: #f79e1b;
+  --color-bordo: #8b2628;
+  --color-coral: #ec673c;
+  --color-sky: #00a8bc;
+  --color-grey: #ededed;
+  --color-white: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-grey);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('https://crm.serikovcoffee.kz/templates/old/assets/images/pattern.svg');
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  transition: all 0.2s ease-out;
+}
+
+
+
+
+#btn_pageUp:hover svg {
+  fill: #FCDC00;
+}
+
+#btn_pageUp:active svg {
+  fill: var(--color-orange);
+}
+
+#btn_pageUp.active {
+  right: 20px;
+}
+
+
+
+.additional_header_block {
+  display: flex;
+  margin: 30px 0 14px 0;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+
+.additional_header_block__section,
+.see_all {
+  display: block;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+}
+
+.additional_header_block__section {
+  font-weight: 900;
+}
+
+.see_all {
+  font-weight: 400;
+}
+
+.additional_header_block.right {
+  justify-content: right;
+}
+
+.additional_header_block.left {
+  justify-content: left;
+}
+
+.blog_items {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.blog_item {
+  text-decoration: none;
+  position: relative;
+  background-color: var(--color-brand);
+  border-radius: 14px;
+  flex: 1 1 auto;
+  overflow: hidden;
+  height: 305px;
+}
+
+.blog_item:nth-child(1) {
+  margin-right: 10px;
+
+}
+
+.blog_item:nth-child(2) {
+  margin-left: 10px;
+}
+
+.blog_item__background {
+  position: absolute;
+  width: 338px;
+  top: 0;
+  right: 0;
+}
+
+.blog_item__section {
+  color: var(--color-brand-dark);
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 25px 0 0 30px;
+  display: block;
+  width: max-content;
+}
+
+.blog_item__name {
+  display: block;
+  color: var(--color-white);
+  font-size: 36px;
+  font-weight: 900;
+  margin: 10px 0 0 30px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+span.blog_item__description {
+  display: block;
+  width: 284px;
+  color: var(--color-white);
+  margin: 10px 0 0 30px;
+}
