@@ -1,0 +1,110 @@
+.ui-form-container {
+    @apply my-4;
+}
+
+.ui-form-container.remember-me {
+    @apply flex;
+}
+
+.ui-form-label {
+    @apply block text-sm font-medium leading-6 text-gray-900;
+}
+
+.ui-form-label.white {
+    @apply text-white;
+}
+
+.ui-form-container.center .ui-form-label {
+    @apply text-center;
+}
+
+.multy-two{
+    @apply flex;
+    @apply items-center;
+    @apply gap-x-1;
+    @apply leading-6;
+}
+.multy-two > .ui-form-container > .ui-form-input{
+    @apply w-32;
+    @apply mr-2.5;
+}
+
+.ui-form-input[type='email'],
+.ui-form-input[type='text'],
+.ui-form-input[type='password'] {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5;
+}
+
+.ui-form-container-checkbox {
+    @apply flex;
+}
+
+.ui-form-container-checkbox .ui-form-label {
+    @apply ml-2;
+}
+
+.ui-form-checkbox {
+    @apply shrink-0;
+    @apply mt-0.5;
+    @apply rounded !important;
+    @apply disabled:opacity-50;
+    @apply disabled:pointer-events-none;
+}
+
+.ui-form-checkbox.orange {
+    @apply focus:ring-orange-400 !important;
+    @apply focus:border-orange-400 !important;
+    @apply text-orange-400 !important;
+}
+
+.forgot-password{
+    @apply text-white hover:text-yellow-300 active:text-orange-400;
+    @apply text-sm font-medium leading-6;
+    @apply ml-5;
+}
+
+.btn-prime {
+    @apply block;
+    @apply rounded-full;
+    @apply text-sm;
+    @apply mx-auto;
+    @apply font-semibold;
+    @apply py-3;
+    @apply px-8;
+    @apply max-w-sm;
+    @apply text-green-800;
+    @apply bg-yellow-300 !important;
+    @apply hover:bg-slate-700;
+}
+.ui-btn{
+    @apply cursor-pointer;
+    @apply w-full;
+    @apply block;
+    @apply rounded-full;
+    @apply text-sm text-center;
+    @apply mx-auto;
+    @apply my-2;
+    @apply font-semibold;
+    @apply py-3;
+    @apply px-8;
+    @apply max-w-sm;
+    @apply text-black;
+    @apply bg-white !important;
+}
+.ui-btn.yellow{
+    @apply text-green-800;
+    @apply bg-yellow-300 !important;
+    @apply hover:bg-orange-400 !important;
+}
+.ui-btn.orange{
+    @apply text-green-800;
+    @apply bg-orange-400 !important;
+    @apply hover:bg-orange-500 !important;
+}
+
+.ui-btn.transparent{
+    @apply text-white;
+    @apply bg-transparent !important;
+    @apply hover:text-yellow-300;
+}
+

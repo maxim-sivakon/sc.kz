@@ -68,3 +68,14 @@ footer::before {
 .footer-copyright-text-second {
     @apply mt-4 text-sm text-white sm:order-first sm:mt-0;
 }
+
+.create-in {
+    @apply block;
+    @apply mt-4;
+}
+.create-in a{
+    @apply font-semibold;
+}
+.create-in a:hover{
+    @apply text-yellow-300;
+}
