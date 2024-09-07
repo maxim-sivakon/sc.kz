@@ -88,6 +88,16 @@ $APPLICATION->IncludeComponent(
     ],
     false
 );
+
+// Категории товаров
+$APPLICATION->IncludeComponent(
+    "bitrix:catalog.section.list",
+    "main.page.section",
+    [
+
+    ],
+    false);
+
 ?>
 
     <section data-margin="true" data-code="category">
