@@ -1,6 +1,0 @@
-<?
-$sSectionName = "Список регламентов";
-$arDirProperties = [
-
-];
-?>

@@ -217,8 +217,6 @@ $APPLICATION->IncludeComponent(
 );
 ?>
 
-
-
     <section data-code="popularity-section-catalog">
         <div class="container mx-auto">
             <h3>Популярные товары</h3>

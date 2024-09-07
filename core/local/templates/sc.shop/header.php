@@ -90,7 +90,7 @@ use Bitrix\Main\{Page\Asset, Context, Application};
                     <li><a lang="ru" href="">Отзывы</a></li>
                     <li><a lang="ru" href="">Бонусы</a></li>
                     <li><a lang="ru" href="">Доставка и оплата</a></li>
-                    <li><a lang="ru" href="">Контакты</a></li>
+                    <li><a lang="ru" href="/contact/">Контакты</a></li>
                     <li><a lang="ru" href="tel:+77057937000">+ 7 (705) 793-70-00</a></li>
                     <li><a lang="ru" href="tel:+77057937000">+ 7 (705) 793-99-99</a></li>
                     <li id="select-currency-pc">
@@ -255,7 +255,7 @@ use Bitrix\Main\{Page\Asset, Context, Application};
                     </a>
                     <ul id="main-menu-pc">
                         <li id="main-menu-catalog">
-                            <a lang="ru" href="" class="multy-list-menu">
+                            <a lang="ru" href="/catalog/" class="multy-list-menu">
                                 <span>Каталог</span>
                                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -272,9 +272,9 @@ use Bitrix\Main\{Page\Asset, Context, Application};
                                 </ul>
                             </div>
                         </li>
-                        <li><a lang="ru" href="">О нас</a></li>
-                        <li><a lang="ru" href="">Блог</a></li>
-                        <li><a lang="ru" href="">Обучение</a></li>
+                        <li><a lang="ru" href="/about/">О нас</a></li>
+                        <li><a lang="ru" href="/blog/">Блог</a></li>
+                        <li><a lang="ru" href="/learn/">Обучение</a></li>
                         <li><a lang="ru" href="" class="stocks">Акции</a></li>
                     </ul>
                     <div id="menu-control-pc">
