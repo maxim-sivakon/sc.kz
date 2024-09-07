@@ -72,6 +72,7 @@ use Bitrix\Main\{Page\Asset, Context, Application};
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/modals.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/category-slide-item.js");
     ?>
+    <script data-skip-moving="true" src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
 <header id="header">
