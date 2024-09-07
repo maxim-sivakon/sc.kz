@@ -12,8 +12,8 @@
 /** @var CBitrixComponent $component */
 
 $this->setFrameMode(true);
-$random["PC"] = random_bytes(6);
-$random["MOBILE"] = random_bytes(6);
+$random["PC"] = rand(10000, 90000);
+$random["MOBILE"] = rand(10000, 90000);
 ?>
 
 <section data-code="banner">
