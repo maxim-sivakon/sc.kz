@@ -21,10 +21,8 @@ $APPLICATION->IncludeComponent(
         "DETAIL_ACTIVE_DATE_FORMAT"       => "",
         "DETAIL_DISPLAY_BOTTOM_PAGER"     => "N",
         "DETAIL_DISPLAY_TOP_PAGER"        => "N",
-        "DETAIL_FIELD_CODE"               => ["", ""],
         "DETAIL_PAGER_SHOW_ALL"           => "N",
         "DETAIL_PAGER_TEMPLATE"           => "",
-        "DETAIL_PROPERTY_CODE"            => ["", ""],
         "DETAIL_SET_CANONICAL_URL"        => "N",
         "DISPLAY_BOTTOM_PAGER"            => "N",
         "DISPLAY_DATE"                    => "N",
@@ -37,8 +35,6 @@ $APPLICATION->IncludeComponent(
         "IBLOCK_TYPE"                     => "SC_CONTENT",
         "INCLUDE_IBLOCK_INTO_CHAIN"       => "N",
         "LIST_ACTIVE_DATE_FORMAT"         => "",
-        "LIST_FIELD_CODE"                 => ["", ""],
-        "LIST_PROPERTY_CODE"              => ["", ""],
         "MESSAGE_404"                     => "",
         "META_DESCRIPTION"                => "-",
         "META_KEYWORDS"                   => "-",
@@ -68,11 +64,29 @@ $APPLICATION->IncludeComponent(
         "USE_RSS"                         => "N",
         "USE_SEARCH"                      => "N",
         "USE_SHARE"                       => "N",
-        "VARIABLE_ALIASES"                => [
-            "ELEMENT_ID" => "ELEMENT_ID",
-            "SECTION_ID" => "SECTION_ID"
+        "COMPONENT_TEMPLATE"              => "main.banner",
+        "FILTER_NAME"                     => "",
+        "DETAIL_URL"                      => "",
+        "ACTIVE_DATE_FORMAT"              => "d.m.Y",
+        "SET_BROWSER_TITLE"               => "Y",
+        "SET_META_KEYWORDS"               => "Y",
+        "SET_META_DESCRIPTION"            => "Y",
+        "PARENT_SECTION"                  => "",
+        "PARENT_SECTION_CODE"             => "",
+        "INCLUDE_SUBSECTIONS"             => "Y",
+        "COMPOSITE_FRAME_MODE"            => "A",
+        "COMPOSITE_FRAME_TYPE"            => "AUTO",
+        "PAGER_TITLE"                     => "Новости",
+        "FIELD_CODE"                      => [
+            0 => "",
+            1 => "",
+        ],
+        "PROPERTY_CODE"                   => [
+            0 => "LINK_TO",
+            1 => "",
         ]
-    ]
+    ],
+    false
 );
 ?>
 

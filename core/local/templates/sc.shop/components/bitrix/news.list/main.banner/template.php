@@ -18,18 +18,18 @@ $random["MOBILE"] = rand(10000, 90000);
 
 <section data-code="banner">
     <div data-info="computer" class="container mx-auto relative">
-        <div class="swiper main-banner-pc-<?= $random["PC"] ?>">
+        <div class="swiper main-banner-pc">
             <div class="swiper-wrapper">
                 <?php foreach($arResult["ITEMS"] as $arItem){
                     $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
                     $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => "DELETE"));
                     ?>
-                    <a id="<?=$this->GetEditAreaId($arItem['ID']);?>" href="<?=$arItem["LINK"]?>" class="swiper-slide">
+                    <a id="<?=$this->GetEditAreaId($arItem['ID']);?>" href="<?=$arItem["PROPERTIES"]["LINK_TO"]["VALUE"]?>" class="swiper-slide">
                         <img src="<?= $arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="<?= $arItem["NAME"]?>">
                     </a>
                 <?php } ?>
             </div>
-            <div class="swiper-pagination-<?= $random["PC"] ?>"></div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="btn-swp-next-rand-<?= $random["PC"] ?> swiper-button-next">
             <svg width="26" height="28" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ $random["MOBILE"] = rand(10000, 90000);
             </svg>
         </div>
         <script>
-            var swiper_randNum = new Swiper(".main-banner-pc-<?= $random["PC"] ?>", {
+            var swiper_randNum = new Swiper(".main-banner-pc", {
                 autoplay: {
                     delay: 5000,
                 },
@@ -51,7 +51,7 @@ $random["MOBILE"] = rand(10000, 90000);
                     prevEl: ".btn-swp-prev-rand-<?= $random["PC"] ?>",
                 },
                 pagination: {
-                    el: ".swiper-pagination-<?= $random["PC"] ?>",
+                    el: ".swiper-pagination",
                     clickable: true,
                 },
                 mousewheel: false,
@@ -60,18 +60,18 @@ $random["MOBILE"] = rand(10000, 90000);
         </script>
     </div>
     <div data-info="mobile" class="container mx-auto relative">
-        <div class="swiper main-banner-mb-<?= $random["MOBILE"] ?>">
+        <div class="swiper main-banner-mb">
             <div class="swiper-wrapper">
                 <?php foreach($arResult["ITEMS"] as $arItem){
                     $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
                     $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => "DELETE"));
                     ?>
-                    <a id="<?=$this->GetEditAreaId($arItem['ID']);?>" href="<?=$arItem["LINK"]?>" class="swiper-slide">
+                    <a id="<?=$this->GetEditAreaId($arItem['ID']);?>" href="<?=$arItem["PROPERTIES"]["LINK_TO"]["VALUE"]?>" class="swiper-slide">
                         <img src="<?= $arItem["DETAIL_PICTURE"]["SRC"]?>" alt="<?= $arItem["NAME"]?>">
                     </a>
                 <?php } ?>
             </div>
-            <div class="swiper-pagination-<?= $random["MOBILE"] ?>"></div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="swiper-button-next-<?= $random["MOBILE"] ?>">
             <svg width="26" height="28" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@ $random["MOBILE"] = rand(10000, 90000);
             </svg>
         </div>
         <script>
-            var swiper_randNumT = new Swiper(".main-banner-mb-<?= $random["MOBILE"] ?>", {
+            var swiper_randNumT = new Swiper(".main-banner-mb", {
                 autoplay: {
                     delay: 5000,
                 },
@@ -93,7 +93,7 @@ $random["MOBILE"] = rand(10000, 90000);
                     prevEl: ".swiper-button-prev-<?= $random["MOBILE"] ?>",
                 },
                 pagination: {
-                    el: ".swiper-pagination-<?= $random["MOBILE"] ?>",
+                    el: ".swiper-pagination",
                     clickable: true,
                 },
                 mousewheel: false,
