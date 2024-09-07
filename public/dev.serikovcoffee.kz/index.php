@@ -126,36 +126,99 @@ $APPLICATION->IncludeComponent(
     false
 );
 
-
+// last-news
+$APPLICATION->IncludeComponent(
+    "bitrix:news.list",
+    "main.two.blocks",
+    [
+        "ADD_ELEMENT_CHAIN"               => "N",
+        "ADD_SECTIONS_CHAIN"              => "N",
+        "AJAX_MODE"                       => "N",
+        "AJAX_OPTION_ADDITIONAL"          => "",
+        "AJAX_OPTION_HISTORY"             => "N",
+        "AJAX_OPTION_JUMP"                => "N",
+        "AJAX_OPTION_STYLE"               => "N",
+        "BROWSER_TITLE"                   => "-",
+        "CACHE_FILTER"                    => "N",
+        "CACHE_GROUPS"                    => "N",
+        "CACHE_TIME"                      => "36000000",
+        "CACHE_TYPE"                      => "A",
+        "CHECK_DATES"                     => "N",
+        "DETAIL_ACTIVE_DATE_FORMAT"       => "",
+        "DETAIL_DISPLAY_BOTTOM_PAGER"     => "N",
+        "DETAIL_DISPLAY_TOP_PAGER"        => "N",
+        "DETAIL_PAGER_SHOW_ALL"           => "N",
+        "DETAIL_PAGER_TEMPLATE"           => "",
+        "DETAIL_SET_CANONICAL_URL"        => "N",
+        "DISPLAY_BOTTOM_PAGER"            => "N",
+        "DISPLAY_DATE"                    => "N",
+        "DISPLAY_NAME"                    => "N",
+        "DISPLAY_PICTURE"                 => "N",
+        "DISPLAY_PREVIEW_TEXT"            => "N",
+        "DISPLAY_TOP_PAGER"               => "N",
+        "HIDE_LINK_WHEN_NO_DETAIL"        => "N",
+        "IBLOCK_ID"                       => "40",
+        "IBLOCK_TYPE"                     => "SC_CONTENT",
+        "INCLUDE_IBLOCK_INTO_CHAIN"       => "N",
+        "LIST_ACTIVE_DATE_FORMAT"         => "",
+        "MESSAGE_404"                     => "",
+        "META_DESCRIPTION"                => "-",
+        "META_KEYWORDS"                   => "-",
+        "NEWS_COUNT"                      => "20",
+        "PAGER_BASE_LINK_ENABLE"          => "N",
+        "PAGER_DESC_NUMBERING"            => "N",
+        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+        "PAGER_SHOW_ALL"                  => "N",
+        "PAGER_SHOW_ALWAYS"               => "N",
+        "PAGER_TEMPLATE"                  => ".default",
+        "PREVIEW_TRUNCATE_LEN"            => "",
+        "SEF_MODE"                        => "N",
+        "SET_LAST_MODIFIED"               => "N",
+        "SET_STATUS_404"                  => "N",
+        "SET_TITLE"                       => "N",
+        "SHOW_404"                        => "N",
+        "SORT_BY1"                        => "ACTIVE_FROM",
+        "SORT_BY2"                        => "SORT",
+        "SORT_ORDER1"                     => "DESC",
+        "SORT_ORDER2"                     => "ASC",
+        "STRICT_SECTION_CHECK"            => "N",
+        "USE_CATEGORIES"                  => "N",
+        "USE_FILTER"                      => "N",
+        "USE_PERMISSIONS"                 => "N",
+        "USE_RATING"                      => "N",
+        "USE_REVIEW"                      => "N",
+        "USE_RSS"                         => "N",
+        "USE_SEARCH"                      => "N",
+        "USE_SHARE"                       => "N",
+        "COMPONENT_TEMPLATE"              => "main.banner",
+        "FILTER_NAME"                     => "",
+        "DETAIL_URL"                      => "",
+        "ACTIVE_DATE_FORMAT"              => "d.m.Y",
+        "SET_BROWSER_TITLE"               => "Y",
+        "SET_META_KEYWORDS"               => "Y",
+        "SET_META_DESCRIPTION"            => "Y",
+        "PARENT_SECTION"                  => "",
+        "PARENT_SECTION_CODE"             => "",
+        "INCLUDE_SUBSECTIONS"             => "Y",
+        "COMPOSITE_FRAME_MODE"            => "A",
+        "COMPOSITE_FRAME_TYPE"            => "AUTO",
+        "PAGER_TITLE"                     => "Новости",
+        "FIELD_CODE"                      => [
+            0 => "PREVIEW_PICTURE",
+            1 => "DETAIL_PICTURE",
+            2 => "",
+        ],
+        "PROPERTY_CODE"                   => [
+            0 => "LINK_TO",
+            1 => "",
+        ]
+    ],
+    false
+);
 ?>
 
 
-    <section data-margin="true" data-code="last-news">
-        <div class="container mx-auto">
-            <div id="last-news-items">
-                <div class="last-news-item">
-                    <div class="container-news-item">
-                        <div class="news-item-section">О нас</div>
-                        <div class="news-item-title">serikov coffee company</div>
-                        <div class="news-item-description">Первая компания по обжарке кофе в Казахстане. Узнай нас
-                            ближе.
-                        </div>
-                    </div>
-                    <img src="../assets/images/pavel.png" alt="">
-                </div>
-                <div class="last-news-item">
-                    <div class="container-news-item">
-                        <div class="news-item-section">Блог</div>
-                        <div class="news-item-title">готовьте кофе правильно</div>
-                        <div class="news-item-description">Честно расскажем каждому как готовить кофе так, чтобы не было
-                            “горько”, “кисло”.
-                        </div>
-                    </div>
-                    <img src="../assets/images/huiznaet.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+
     <section data-code="popularity-section-catalog">
         <div class="container mx-auto">
             <h3>Популярные товары</h3>

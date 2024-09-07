@@ -1,4 +1,6 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
+    die();
+}
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -34,9 +36,9 @@ foreach ($arResult[ 'SECTIONS' ] as &$arSection) {
     }
 }
 
-$strSectionEdit = CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "SECTION_EDIT");
-$strSectionDelete = CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "SECTION_DELETE");
-$arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_CONFIRM'));
+$strSectionEdit = CIBlock::GetArrayByID($arParams[ "IBLOCK_ID" ], "SECTION_EDIT");
+$strSectionDelete = CIBlock::GetArrayByID($arParams[ "IBLOCK_ID" ], "SECTION_DELETE");
+$arSectionDeleteParams = ["CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_CONFIRM')];
 ?>
 
 <section data-margin="true" data-code="category">
@@ -44,20 +46,23 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
         <h3>Категории товаров</h3>
         <div class="swiper category-slide">
             <div class="swiper-wrapper">
-                <?php foreach ($resSection as $section){
-                    $this->AddEditAction($arSection['ID'], $arSection['EDIT_LINK'], $strSectionEdit);
-                    $this->AddDeleteAction($arSection['ID'], $arSection['DELETE_LINK'], $strSectionDelete, $arSectionDeleteParams);
+                <?php foreach ($resSection as $section) {
+                    $this->AddEditAction($arSection[ 'ID' ], $arSection[ 'EDIT_LINK' ], $strSectionEdit);
+                    $this->AddDeleteAction($arSection[ 'ID' ], $arSection[ 'DELETE_LINK' ], $strSectionDelete,
+                        $arSectionDeleteParams);
                     ?>
-                        <?php if(count($section['SECTIONS']) >= 1){?>
-                            <a class="swiper-slide">
-                                <div id="<?= $this->GetEditAreaId($section['ID']); ?>" class="category-slide-item" data-id="<?= $section['ID'] ?>"><?= $section['NAME'] ?></div>
-                            </a>
-                        <?php }else{?>
-                            <a href="<?= $section['URL'] ?>" class="swiper-slide">
-                                <div id="<?= $this->GetEditAreaId($section['ID']); ?>" class="category-slide-item" data-id="<?= $section['ID'] ?>"><?= $section['NAME'] ?></div>
-                            </a>
-                        <?php }?>
-                <?php }?>
+                    <?php if (count($section[ 'SECTIONS' ]) >= 1) { ?>
+                        <a class="swiper-slide">
+                            <div id="<?= $this->GetEditAreaId($section[ 'ID' ]); ?>" class="category-slide-item"
+                                 data-id="<?= $section[ 'ID' ] ?>"><?= $section[ 'NAME' ] ?></div>
+                        </a>
+                    <?php } else { ?>
+                        <a href="<?= $section[ 'URL' ] ?>" class="swiper-slide">
+                            <div id="<?= $this->GetEditAreaId($section[ 'ID' ]); ?>" class="category-slide-item"
+                                 data-id="<?= $section[ 'ID' ] ?>"><?= $section[ 'NAME' ] ?></div>
+                        </a>
+                    <?php } ?>
+                <?php } ?>
             </div>
         </div>
         <script>
@@ -86,17 +91,19 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
         </script>
 
         <div id="main-category-two-level">
-            <?php foreach ($resSection as $section){?>
+            <?php foreach ($resSection as $section) { ?>
 
-                    <ul class="category-slide-item-menu" data-id="<?= $section['ID'] ?>">
-                        <?php foreach ($section['SECTIONS'] as $sectionTwo){
-                            $this->AddEditAction($arSection['ID'], $arSection['EDIT_LINK'], $strSectionEdit);
-                            $this->AddDeleteAction($arSection['ID'], $arSection['DELETE_LINK'], $strSectionDelete, $arSectionDeleteParams); ?>
-                            <li><a id="<?= $this->GetEditAreaId($sectionTwo['ID']); ?>" href="<?= $sectionTwo['URL']?>"><?= $sectionTwo['NAME']?></a></li>
-                        <?php }?>
-                    </ul>
+                <ul class="category-slide-item-menu" data-id="<?= $section[ 'ID' ] ?>">
+                    <?php foreach ($section[ 'SECTIONS' ] as $sectionTwo) {
+                        $this->AddEditAction($arSection[ 'ID' ], $arSection[ 'EDIT_LINK' ], $strSectionEdit);
+                        $this->AddDeleteAction($arSection[ 'ID' ], $arSection[ 'DELETE_LINK' ], $strSectionDelete,
+                            $arSectionDeleteParams); ?>
+                        <li><a id="<?= $this->GetEditAreaId($sectionTwo[ 'ID' ]); ?>"
+                               href="<?= $sectionTwo[ 'URL' ] ?>"><?= $sectionTwo[ 'NAME' ] ?></a></li>
+                    <?php } ?>
+                </ul>
 
-            <?php }?>
+            <?php } ?>
         </div>
     </div>
 </section>
