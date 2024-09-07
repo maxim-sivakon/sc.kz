@@ -1,0 +1,70 @@
+.container-white-login {
+    @apply bg-white;
+    @apply relative;
+    @apply rounded-xl;
+    @apply overflow-hidden;
+    @apply px-10 pb-10 pt-4;
+}
+
+.block-login-all-vector {
+    @apply absolute;
+    @apply w-7/12;
+    @apply z-0;
+    @apply top-0 right-0;
+}
+.block-login-all{
+    @apply mx-12 my-24;
+    @apply w-[411px];
+    @apply relative;
+    @apply z-10;
+}
+.block-login-all_header{
+    @apply mb-4;
+    @apply relative;
+    @apply z-20;
+    @apply text-center;
+    @apply text-green-850;
+    @apply text-4xl font-semibold;
+}
+.block-login-all_container{
+    @apply relative;
+    @apply z-20;
+    @apply  w-[410px] h-[505px];
+}
+.block-login-all-vector-green-bg{
+    @apply absolute;
+    @apply z-10;
+}
+.block-login-all-form{
+    @apply w-8/12;
+    @apply relative;
+    @apply z-20;
+    @apply mx-auto;
+    @apply pt-12;
+}
+.block-login-all-social{
+    @apply flex;
+    @apply items-center;
+    @apply gap-x-1;
+    @apply leading-6;
+    @apply mx-auto;
+    @apply w-max;
+}
+.login-with{
+    @apply border-t-[1px] border-white;
+    @apply pt-2;
+    @apply text-xs font-medium leading-6 text-center;
+    @apply text-white;
+}
+.block-login-all-social-item{
+    @apply m-2;
+}
+.block-login-all-social-item svg{
+    @apply fill-white;
+}
+.block-login-all-social-item:hover svg{
+@apply fill-yellow-300;
+}
+.block-login-all.register.block-login-all-vector-green-bg{
+@apply w-[440px] !important;
+}
