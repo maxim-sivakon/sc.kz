@@ -516,7 +516,7 @@ use Bitrix\Main\{Page\Asset, Context, Application};
         "",
         [
             "PATH"       => "",
-            "SITE_ID"    => "i2",
+            "SITE_ID"    => "36",
             "START_FROM" => "0"
         ]
     ); ?>
