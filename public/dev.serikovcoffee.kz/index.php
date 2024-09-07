@@ -78,8 +78,9 @@ $APPLICATION->IncludeComponent(
         "COMPOSITE_FRAME_TYPE"            => "AUTO",
         "PAGER_TITLE"                     => "Новости",
         "FIELD_CODE"                      => [
-            0 => "",
-            1 => "",
+            0 => "PREVIEW_PICTURE",
+            1 => "DETAIL_PICTURE",
+            2 => "",
         ],
         "PROPERTY_CODE"                   => [
             0 => "LINK_TO",
@@ -94,115 +95,41 @@ $APPLICATION->IncludeComponent(
     "bitrix:catalog.section.list",
     "main.page.section",
     [
-
+        "COMPONENT_TEMPLATE"                     => "main.page.section",
+        "IBLOCK_TYPE"                            => "CRM_PRODUCT_CATALOG",
+        "IBLOCK_ID"                              => "14",
+        "SECTION_ID"                             => "",
+        "SECTION_CODE"                           => "",
+        "COUNT_ELEMENTS"                         => "Y",
+        "COUNT_ELEMENTS_FILTER"                  => "CNT_ACTIVE",
+        "ADDITIONAL_COUNT_ELEMENTS_FILTER"       => "additionalCountFilter",
+        "HIDE_SECTIONS_WITH_ZERO_COUNT_ELEMENTS" => "N",
+        "TOP_DEPTH"                              => "2",
+        "SECTION_FIELDS"                         => [
+            0 => "",
+            1 => "",
+        ],
+        "SECTION_USER_FIELDS"                    => [
+            0 => "",
+            1 => "",
+        ],
+        "FILTER_NAME"                            => "sectionsFilter",
+        "SECTION_URL"                            => "",
+        "CACHE_TYPE"                             => "A",
+        "CACHE_TIME"                             => "36000000",
+        "CACHE_GROUPS"                           => "Y",
+        "CACHE_FILTER"                           => "N",
+        "ADD_SECTIONS_CHAIN"                     => "Y",
+        "COMPOSITE_FRAME_MODE"                   => "A",
+        "COMPOSITE_FRAME_TYPE"                   => "AUTO"
     ],
-    false);
+    false
+);
+
 
 ?>
 
-    <section data-margin="true" data-code="category">
-        <div class="container mx-auto">
-            <h3>Категории товаров</h3>
 
-            <div class="swiper category-slide">
-                <div class="swiper-wrapper">
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="012">Кофе</div>
-                    </a>
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="123">Чай</div>
-                    </a>
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="345">Аксессуары</div>
-                    </a>
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="567">Оборудование</div>
-                    </a>
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="789">Галстук</div>
-                    </a>
-                    <a class="swiper-slide">
-                        <div class="category-slide-item" data-id="910">Капуста</div>
-                    </a>
-                </div>
-            </div>
-            <script>
-                var swiper_randNumCategory = new Swiper(".category-slide", {
-                    navigation: false,
-                    pagination: false,
-                    mousewheel: true,
-                    rewind: true,
-                    freeMode: true,
-                    slidesPerView: 'auto',
-                    breakpoints: {
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 20
-                        },
-                        640: {
-                            slidesPerView: 2,
-                            spaceBetween: 40
-                        },
-                        1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 40
-                        }
-                    }
-                });
-            </script>
-
-            <div id="main-category-two-level">
-                <ul class="category-slide-item-menu" data-id="012">
-                    <li><a href="">Кофе</a></li>
-                    <li><a href="">1капсулы</a></li>
-                    <li><a href="">1дрип-боксы</a></li>
-                    <li><a href="">1основы для раф</a></li>
-                    <li><a href="">1подарочные наборы</a></li>
-                    <li><a href="">1дрипы</a></li>
-                </ul>
-                <ul class="category-slide-item-menu" data-id="123">
-                    <li><a href="">Чай</a></li>
-                    <li><a href="">2капсулы</a></li>
-                    <li><a href="">2дрип-боксы</a></li>
-                    <li><a href="">2основы для раф</a></li>
-                    <li><a href="">2подарочные наборы</a></li>
-                    <li><a href="">2дрипы</a></li>
-                </ul>
-                <ul class="category-slide-item-menu" data-id="345">
-                    <li><a href="">Аксессуары</a></li>
-                    <li><a href="">3капсулы</a></li>
-                    <li><a href="">3дрип-боксы</a></li>
-                    <li><a href="">3основы для раф</a></li>
-                    <li><a href="">3подарочные наборы</a></li>
-                    <li><a href="">3дрипы</a></li>
-                </ul>
-                <ul class="category-slide-item-menu" data-id="567">
-                    <li><a href="">Оборудование</a></li>
-                    <li><a href="">4капсулы</a></li>
-                    <li><a href="">4дрип-боксы</a></li>
-                    <li><a href="">4основы для раф</a></li>
-                    <li><a href="">4подарочные наборы</a></li>
-                    <li><a href="">4дрипы</a></li>
-                </ul>
-                <ul class="category-slide-item-menu" data-id="789">
-                    <li><a href="">Галстук</a></li>
-                    <li><a href="">4капсулы</a></li>
-                    <li><a href="">4дрип-боксы</a></li>
-                    <li><a href="">4основы для раф</a></li>
-                    <li><a href="">4подарочные наборы</a></li>
-                    <li><a href="">4дрипы</a></li>
-                </ul>
-                <ul class="category-slide-item-menu" data-id="910">
-                    <li><a href="">Капуста</a></li>
-                    <li><a href="">4капсулы</a></li>
-                    <li><a href="">4дрип-боксы</a></li>
-                    <li><a href="">4основы для раф</a></li>
-                    <li><a href="">4подарочные наборы</a></li>
-                    <li><a href="">4дрипы</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
     <section data-margin="true" data-code="last-news">
         <div class="container mx-auto">
             <div id="last-news-items">
