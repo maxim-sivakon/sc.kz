@@ -305,6 +305,7 @@ use Bitrix\Main\{Page\Asset, Context, Application};
                     </div>
                 </div>
             </div>
+            <?php $APPLICATION->ShowPanel() ?>
         </div>
     </div>
     <div data-info="mobile">
@@ -508,8 +509,6 @@ use Bitrix\Main\{Page\Asset, Context, Application};
             <button type="button" class="btn-prime mt-6">Выбрать</button>
         </div>
     </div>
-
-    <?php $APPLICATION->ShowPanel() ?>
 
     <?
     $APPLICATION->IncludeComponent(
