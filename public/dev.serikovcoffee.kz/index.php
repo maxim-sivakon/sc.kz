@@ -1,5 +1,7 @@
 <? require($_SERVER[ "DOCUMENT_ROOT" ]."/bitrix/header.php"); ?>
 <?php
+$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
+
 // banner
 $APPLICATION->IncludeComponent(
     "bitrix:news.list",
