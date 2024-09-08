@@ -87,8 +87,8 @@ $APPLICATION->SetTitle("Блог");
     "GIFTS_SHOW_OLD_PRICE" => "Y",	// Показывать старую цену
     "HIDE_NOT_AVAILABLE" => "N",	// Недоступные товары
     "HIDE_NOT_AVAILABLE_OFFERS" => "N",	// Недоступные торговые предложения
-    "IBLOCK_ID" => "14",	// Инфоблок
-    "IBLOCK_TYPE" => "CRM_PRODUCT_CATALOG",	// Тип инфоблока
+    "IBLOCK_ID" => "41",
+    "IBLOCK_TYPE" => "SC_BLOG",
     "INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
     "INSTANT_RELOAD" => "N",	// Мгновенная фильтрация при включенном AJAX
     "LABEL_PROP" => "",	// Свойство меток товара
