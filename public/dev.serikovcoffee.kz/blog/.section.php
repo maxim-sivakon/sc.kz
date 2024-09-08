@@ -1,2 +1,2 @@
 <?php
-$sSectionName = "Пустая страница";
+$sSectionName = "Блог";

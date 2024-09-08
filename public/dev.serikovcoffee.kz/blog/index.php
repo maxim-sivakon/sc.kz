@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Пустая страница");
+$APPLICATION->SetTitle("Блог");
 ?>
 
 <section data-code="desc-blog" data-margin="true">
