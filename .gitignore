@@ -15,6 +15,7 @@
 /core/bitrix/site_checker_*
 /core/bitrix/tmp/*
 /core/bitrix/php_interface/*
+/core/bitrix/cache/*
 /core/bitrix/managed_cache/*
 /core/bitrix/stack_cache/*
 /core/bitrix/backup/*
