@@ -760,6 +760,14 @@ $arUrlRewrite=array (
     'PATH' => '/terminal/index.php',
     'SORT' => 100,
   ),
+  143 => 
+  array (
+    'CONDITION' => '#^/calendar/open/#',
+    'RULE' => '',
+    'ID' => 'bitrix:calendar.open-events',
+    'PATH' => '/calendar/open_events.php',
+    'SORT' => 100,
+  ),
   105 => 
   array (
     'CONDITION' => '#^/crm/activity/#',
@@ -910,6 +918,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:crm.product',
     'PATH' => '/crm/product/index.php',
+    'SORT' => 100,
+  ),
+  144 => 
+  array (
+    'CONDITION' => '#^/desktop/menu#',
+    'RULE' => '',
+    'ID' => '',
+    'PATH' => '/desktop_menu/index.php',
     'SORT' => 100,
   ),
   58 => 
