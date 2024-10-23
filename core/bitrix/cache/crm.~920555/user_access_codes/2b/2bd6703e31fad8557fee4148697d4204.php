@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001728996301';
-$dateexpire = '001737636301';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:10:{i:0;a:4:{s:2:"ID";s:4:"7627";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:8:"intranet";s:11:"ACCESS_CODE";s:3:"D73";}i:1;a:4:{s:2:"ID";s:4:"7625";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:8:"intranet";s:11:"ACCESS_CODE";s:3:"DR1";}i:2;a:4:{s:2:"ID";s:4:"7626";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:8:"intranet";s:11:"ACCESS_CODE";s:4:"DR69";}i:3;a:4:{s:2:"ID";s:4:"7628";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:8:"intranet";s:11:"ACCESS_CODE";s:4:"DR73";}i:4;a:4:{s:2:"ID";s:4:"6767";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:5:"group";s:11:"ACCESS_CODE";s:3:"G12";}i:5;a:4:{s:2:"ID";s:4:"6768";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:5:"group";s:11:"ACCESS_CODE";s:2:"G2";}i:6;a:4:{s:2:"ID";s:4:"6765";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:5:"group";s:11:"ACCESS_CODE";s:2:"G3";}i:7;a:4:{s:2:"ID";s:4:"6766";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:5:"group";s:11:"ACCESS_CODE";s:2:"G4";}i:8;a:4:{s:2:"ID";s:4:"7632";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:8:"intranet";s:11:"ACCESS_CODE";s:6:"IU1490";}i:9;a:4:{s:2:"ID";s:4:"6772";s:7:"USER_ID";s:4:"1490";s:11:"PROVIDER_ID";s:4:"user";s:11:"ACCESS_CODE";s:5:"U1490";}}}';
-return true;
-?>

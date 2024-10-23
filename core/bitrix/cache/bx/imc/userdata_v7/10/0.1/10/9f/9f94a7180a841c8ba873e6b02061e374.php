@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001729004356';
-$dateexpire = '001747148356';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:36:{s:2:"ID";s:2:"10";s:9:"LAST_NAME";s:14:"Колендо";s:4:"NAME";s:35:"Александра Колендо";s:5:"EMAIL";s:27:"coffeeshop@serikovcoffee.kz";s:5:"LOGIN";s:27:"coffeeshop@serikovcoffee.kz";s:14:"PERSONAL_PHOTO";s:5:"34207";s:11:"SECOND_NAME";s:0:"";s:17:"PERSONAL_BIRTHDAY";O:21:"Bitrix\\Main\\Type\\Date":1:{s:8:"'.chr(0).'*'.chr(0).'value";O:8:"DateTime":3:{s:4:"date";s:26:"2002-11-07 00:00:00.000000";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Moscow";}}s:13:"WORK_POSITION";s:38:"менеджер Кофе Онлайн";s:15:"PERSONAL_GENDER";s:1:"F";s:16:"EXTERNAL_AUTH_ID";N;s:16:"TIME_ZONE_OFFSET";s:4:"7200";s:12:"PERSONAL_WWW";s:0:"";s:6:"ACTIVE";s:1:"Y";s:11:"LANGUAGE_ID";s:2:"ru";s:10:"WORK_PHONE";s:11:"77780030109";s:15:"PERSONAL_MOBILE";s:11:"77057937000";s:14:"PERSONAL_PHONE";N;s:5:"COLOR";s:7:"#556574";s:6:"STATUS";s:6:"online";s:13:"UF_DEPARTMENT";a:1:{i:0;i:69;}s:14:"UF_PHONE_INNER";s:3:"702";s:7:"UF_ZOOM";N;s:8:"UF_SKYPE";N;s:13:"UF_SKYPE_LINK";N;s:11:"UF_VI_PHONE";N;s:10:"FIRST_NAME";s:20:"Александра";s:8:"BIRTHDAY";s:5:"07-11";s:6:"AVATAR";s:84:"/upload/resize_cache/main/b5d/jj2c2t6r3omvgpc8yzrp8x0dvp71g7sn/200_200_2/KALENDO.png";s:9:"AVATAR_HR";s:84:"/upload/resize_cache/main/b5d/jj2c2t6r3omvgpc8yzrp8x0dvp71g7sn/200_200_2/KALENDO.png";s:9:"AVATAR_ID";i:34207;s:11:"IS_EXTRANET";b:0;s:10:"IS_NETWORK";b:0;s:6:"IS_BOT";b:0;s:12:"IS_CONNECTOR";b:0;s:11:"INNER_PHONE";s:3:"702";}}';
-return true;
-?>

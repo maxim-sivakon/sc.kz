@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001729004373';
-$dateexpire = '001747148373';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:35:{s:2:"ID";s:2:"18";s:9:"LAST_NAME";s:16:"Горохова";s:4:"NAME";s:35:"Екатерина Горохова";s:5:"EMAIL";s:27:"e.gorohova@serikovcoffee.kz";s:5:"LOGIN";s:27:"e.gorohova@serikovcoffee.kz";s:14:"PERSONAL_PHOTO";s:5:"24795";s:11:"SECOND_NAME";s:22:"Анатольевна";s:17:"PERSONAL_BIRTHDAY";N;s:13:"WORK_POSITION";s:44:"Бухгалтер ТОО "COFFEE CTS GROUP"";s:15:"PERSONAL_GENDER";s:1:"F";s:16:"EXTERNAL_AUTH_ID";N;s:16:"TIME_ZONE_OFFSET";s:4:"7200";s:12:"PERSONAL_WWW";s:0:"";s:6:"ACTIVE";s:1:"Y";s:11:"LANGUAGE_ID";s:2:"ru";s:10:"WORK_PHONE";N;s:15:"PERSONAL_MOBILE";s:11:"77024656082";s:14:"PERSONAL_PHONE";N;s:5:"COLOR";s:7:"#f76187";s:6:"STATUS";s:6:"online";s:13:"UF_DEPARTMENT";a:1:{i:0;i:72;}s:14:"UF_PHONE_INNER";N;s:7:"UF_ZOOM";N;s:8:"UF_SKYPE";N;s:13:"UF_SKYPE_LINK";N;s:11:"UF_VI_PHONE";N;s:10:"FIRST_NAME";s:18:"Екатерина";s:8:"BIRTHDAY";b:0;s:6:"AVATAR";s:98:"/upload/resize_cache/main/5ce/ytcuk9hkd0zbyzkooq2dcc435shwja9d/200_200_2/IMG20231021130145.jpg.png";s:9:"AVATAR_HR";s:98:"/upload/resize_cache/main/5ce/ytcuk9hkd0zbyzkooq2dcc435shwja9d/200_200_2/IMG20231021130145.jpg.png";s:9:"AVATAR_ID";i:24795;s:11:"IS_EXTRANET";b:0;s:10:"IS_NETWORK";b:0;s:6:"IS_BOT";b:0;s:12:"IS_CONNECTOR";b:0;}}';
-return true;
-?>

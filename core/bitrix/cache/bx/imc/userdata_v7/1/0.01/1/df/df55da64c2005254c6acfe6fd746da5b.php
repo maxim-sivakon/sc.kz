@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001729004356';
-$dateexpire = '001747148356';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:35:{s:2:"ID";s:1:"1";s:9:"LAST_NAME";s:16:"Сиваконь";s:4:"NAME";s:29:"Максим Сиваконь";s:5:"EMAIL";s:20:"m.sivakon@yandex.com";s:5:"LOGIN";s:20:"m.sivakon@yandex.com";s:14:"PERSONAL_PHOTO";s:5:"42204";s:11:"SECOND_NAME";s:14:"Юрьевич";s:17:"PERSONAL_BIRTHDAY";O:21:"Bitrix\\Main\\Type\\Date":1:{s:8:"'.chr(0).'*'.chr(0).'value";O:8:"DateTime":3:{s:4:"date";s:26:"1998-03-31 00:00:00.000000";s:13:"timezone_type";i:3;s:8:"timezone";s:13:"Europe/Moscow";}}s:13:"WORK_POSITION";s:37:"Старший разработчик";s:15:"PERSONAL_GENDER";s:1:"M";s:16:"EXTERNAL_AUTH_ID";N;s:16:"TIME_ZONE_OFFSET";s:5:"14400";s:12:"PERSONAL_WWW";s:18:"https://bearmax.ru";s:6:"ACTIVE";s:1:"Y";s:11:"LANGUAGE_ID";s:2:"ru";s:10:"WORK_PHONE";N;s:15:"PERSONAL_MOBILE";s:11:"79222399661";s:14:"PERSONAL_PHONE";N;s:5:"COLOR";s:7:"#df532d";s:6:"STATUS";s:6:"online";s:13:"UF_DEPARTMENT";a:1:{i:0;i:76;}s:14:"UF_PHONE_INNER";N;s:7:"UF_ZOOM";N;s:8:"UF_SKYPE";N;s:13:"UF_SKYPE_LINK";N;s:11:"UF_VI_PHONE";N;s:10:"FIRST_NAME";s:12:"Максим";s:8:"BIRTHDAY";s:5:"31-03";s:6:"AVATAR";s:83:"/upload/resize_cache/main/429/ehybwq2wa430x1ox1qwy08om12lmph0s/200_200_2/avatar.png";s:9:"AVATAR_HR";s:83:"/upload/resize_cache/main/429/ehybwq2wa430x1ox1qwy08om12lmph0s/200_200_2/avatar.png";s:9:"AVATAR_ID";i:42204;s:11:"IS_EXTRANET";b:0;s:10:"IS_NETWORK";b:0;s:6:"IS_BOT";b:0;s:12:"IS_CONNECTOR";b:0;}}';
-return true;
-?>
