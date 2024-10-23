@@ -3,7 +3,7 @@
 
 /src/node_modules/*
 
-/core/bitrix/components/*
+#/core/bitrix/components/*
 #/core/bitrix/modules/*
 #/core/bitrix/tools/*
 

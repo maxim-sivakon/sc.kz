@@ -1,0 +1,27 @@
+<?php
+$MESS["BLACKLIST_ABOUT_2"] = "Ein Anruf wird abgelehnt, wenn die Anrufer-ID in der Liste gefunden wird. Informationen zu diesem Anruf finden Sie hier: \"#LINK#\"";
+$MESS["BLACKLIST_ABOUT_LINK"] = "Anrufprotokoll";
+$MESS["BLACKLIST_CANCEL"] = "Abbrechen";
+$MESS["BLACKLIST_DELETE_CONFIRM"] = "Möchten Sie diese Nummer wirklich aus der Liste entfernen?";
+$MESS["BLACKLIST_DELETE_ERROR"] = "Entfernung der Telefonnummer ist fehlgeschlagen.";
+$MESS["BLACKLIST_ENABLE"] = "Telefonnummern außerhalb der Bürozeiten automatisch sperren";
+$MESS["BLACKLIST_ENABLE_TEXT"] = "Die Außerhalb-Büro-Zeit wird individuell für jede Telefonnummer auf der Seite der Einstellungen definiert.";
+$MESS["BLACKLIST_ERROR_TITLE"] = "Fehler";
+$MESS["BLACKLIST_NUMBERS"] = "Nummern in der schwarzen Liste";
+$MESS["BLACKLIST_NUMBER_ADD"] = "Nummer hinzufügen";
+$MESS["BLACKLIST_NUMBER_DELETE"] = "Löschen";
+$MESS["BLACKLIST_REGISTER_IN_CRM_2"] = "Anrufe von den schwarzgelisteten Nummern im CRM registrieren";
+$MESS["BLACKLIST_SAVE"] = "Speichern";
+$MESS["BLACKLIST_SETTINGS_TITLE"] = "Schwarze Liste konfigurieren";
+$MESS["BLACKLIST_TEXT1"] = "Wenn Anruf von dem Anrufer mit derselben ID kommt";
+$MESS["BLACKLIST_TEXT2"] = "Mal in der Reihe innerhalb von";
+$MESS["BLACKLIST_TEXT3"] = "Minuten";
+$MESS["BLACKLIST_TITLE"] = "Schwarze Liste verwalten";
+$MESS["VI_BLACKLIST_NUMBER_ALREADY_EXISTS"] = "Diese Nummer wurde bereits in die Schwarze Liste eingetragen";
+$MESS["VOX_BLACKLIST_ADD_TO_LIST"] = "Zur Liste hinzufügen";
+$MESS["VOX_BLACKLIST_INTERVAL_IN_MINUTES"] = "Intervall";
+$MESS["VOX_BLACKLIST_NUMBERS_HINT"] = "Geben Sie hier die Telefonnummern an. Einzelne Einträge müssen jeweils in einer neuen Zeile gemacht werden.";
+$MESS["VOX_BLACKLIST_NUMBERS_SUBTITLE"] = "Telefonnummern";
+$MESS["VOX_BLACKLIST_NUMBERS_TITLE"] = "Zur schwarzen Liste hinzufügen";
+$MESS["VOX_BLACKLIST_RINGS_COUNT"] = "Anzahl der Klingeltöne";
+$MESS["VOX_BLACKLIST_VALUE"] = "Wert";
