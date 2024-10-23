@@ -1,0 +1,16 @@
+<?php
+$MESS["M_CRM_CATEGORY_DETAIL_CREATE_FAILED_STAGE"] = "Phase für Misserfolg erstellen";
+$MESS["M_CRM_CATEGORY_DETAIL_CREATE_PROCESS_STAGE"] = "Phase erstellen";
+$MESS["M_CRM_CATEGORY_DETAIL_DEFAULT_CATEGORY_NAME2"] = "Neue Pipeline";
+$MESS["M_CRM_CATEGORY_DETAIL_DEFAULT_STAGE_NAME2"] = "Neue Phase";
+$MESS["M_CRM_CATEGORY_DETAIL_DELETE2"] = "Pipeline löschen";
+$MESS["M_CRM_CATEGORY_DETAIL_DELETE_CATEGORY2"] = "Möchten Sie die Pipeline wirklich löschen?";
+$MESS["M_CRM_CATEGORY_DETAIL_DELETE_CATEGORY_OK"] = "Löschen";
+$MESS["M_CRM_CATEGORY_DETAIL_FUNNEL2"] = "Pipeline «#CATEGORY_NAME#»";
+$MESS["M_CRM_CATEGORY_DETAIL_FUNNEL_EMPTY2"] = "Pipeline ohne Namen";
+$MESS["M_CRM_CATEGORY_DETAIL_FUNNEL_NOT_LOADED2"] = "Pipeline";
+$MESS["M_CRM_CATEGORY_DETAIL_IS_DEFAULT_TEXT"] = "Sie können ihn bearbeiten, aber Sie können ihn nicht löschen.";
+$MESS["M_CRM_CATEGORY_DETAIL_IS_DEFAULT_TITLE2"] = "Das ist eine Standardpipeline";
+$MESS["M_CRM_CATEGORY_DETAIL_NAME_FIELD_TITLE2"] = "Name der Pipeline";
+$MESS["M_CRM_CATEGORY_DETAIL_SAVE"] = "Speichern";
+$MESS["M_CRM_CATEGORY_DETAIL_SUCCESS_CREATION"] = "Phase wurde erstellt";

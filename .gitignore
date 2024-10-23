@@ -3,7 +3,22 @@
 
 /src/node_modules/*
 
-/core/bitrix/*
+/core/bitrix/components/*
+/core/bitrix/modules/*
+/core/bitrix/tools/*
+
+
+# ignore cache files and more
+/core/bitrix/.settings.php
+/core/bitrix/license_key.php
+/core/bitrix/.settings_extra.php
+/core/bitrix/site_checker_*
+/core/bitrix/tmp/*
+/core/bitrix/php_interface/*
+/core/bitrix/managed_cache/*
+/core/bitrix/stack_cache/*
+/core/bitrix/backup/*
+#/core/bitrix/*
 /core/upload/*
 
 /public/crm.serikovcoffee.kz/bitrix/*

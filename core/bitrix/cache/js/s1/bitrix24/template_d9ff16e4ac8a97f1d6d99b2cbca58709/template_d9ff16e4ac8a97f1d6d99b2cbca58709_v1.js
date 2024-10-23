@@ -1,0 +1,7 @@
+
+; /* Start:"a:4:{s:4:"full";s:106:"/bitrix/components/bitrix/disk.uf.comments.attached.objects/templates/.default/script.min.js?1728733184799";s:6:"source";s:88:"/bitrix/components/bitrix/disk.uf.comments.attached.objects/templates/.default/script.js";s:3:"min";s:92:"/bitrix/components/bitrix/disk.uf.comments.attached.objects/templates/.default/script.min.js";s:3:"map";s:92:"/bitrix/components/bitrix/disk.uf.comments.attached.objects/templates/.default/script.map.js";}"*/
+BX.namespace("BX.Disk");BX.Disk.CommentsAttachedObjectClass=function(){var t=function(t){this.containerId=t.containerId;this.menuButtonsByFile=t.menuButtonsByFile||{};this.selectorToFindMoreLinks=t.selectorToFindMoreLinks;this.container=BX(this.containerId);this.setEvents()};t.prototype.setEvents=function(){if(!BX.Disk.isEmptyObject(this.selectorToFindMoreLinks)){BX.bindDelegate(this.container,"click",this.selectorToFindMoreLinks,BX.delegate(this.openMenu,this))}};var e=0;t.prototype.openMenu=function(t){var n=t.srcElement||t.target;var i=n.getAttribute("bx-attach-id");if(!i){return}e++;BX.PopupMenu.show("bx-viewer-wd-popup"+i+"_"+e,BX(n),this.menuButtonsByFile[i],{angle:{position:"top",offset:25},autoHide:true});return BX.PreventDefault(t)};return t}();
+/* End */
+;; /* /bitrix/components/bitrix/disk.uf.comments.attached.objects/templates/.default/script.min.js?1728733184799*/
+
+//# sourceMappingURL=template_d9ff16e4ac8a97f1d6d99b2cbca58709.map.js

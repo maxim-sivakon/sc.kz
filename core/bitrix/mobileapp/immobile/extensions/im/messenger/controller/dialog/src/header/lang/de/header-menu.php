@@ -1,0 +1,8 @@
+<?php
+$MESS["IMMOBILE_MESSENGER_HEADER_ADD_USER"] = "Teilnehmer hinzufügen";
+$MESS["IMMOBILE_MESSENGER_HEADER_LEAVE"] = "Chat verlassen";
+$MESS["IMMOBILE_MESSENGER_HEADER_MUTE"] = "Benachrichtigungen deaktivieren";
+$MESS["IMMOBILE_MESSENGER_HEADER_PROFILE"] = "Profil";
+$MESS["IMMOBILE_MESSENGER_HEADER_RELOAD"] = "Daten aktualisieren";
+$MESS["IMMOBILE_MESSENGER_HEADER_UNMUTE"] = "Benachrichtigungen aktivieren";
+$MESS["IMMOBILE_MESSENGER_HEADER_USER_LIST"] = "Teilnehmer";

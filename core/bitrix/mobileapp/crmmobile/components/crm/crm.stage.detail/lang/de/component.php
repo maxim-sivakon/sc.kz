@@ -1,0 +1,10 @@
+<?php
+$MESS["M_CRM_STAGE_DETAIL_DEFAULT_STAGE_DEFAULT_NAME"] = "Neue Phase";
+$MESS["M_CRM_STAGE_DETAIL_DEFAULT_STAGE_NAME"] = "Name";
+$MESS["M_CRM_STAGE_DETAIL_DELETE"] = "Phase löschen";
+$MESS["M_CRM_STAGE_DETAIL_DELETE_OK"] = "Löschen";
+$MESS["M_CRM_STAGE_DETAIL_DELETE_TEXT"] = "Möchten Sie diese Phase wirklich löschen?";
+$MESS["M_CRM_STAGE_DETAIL_FUNNEL"] = "Phase \"#STAGE_NAME#\"";
+$MESS["M_CRM_STAGE_DETAIL_FUNNEL_EMPTY"] = "Phase ohne Namen";
+$MESS["M_CRM_STAGE_DETAIL_NAME"] = "Name der Phase";
+$MESS["M_CRM_STAGE_DETAIL_SAVE"] = "Speichern";

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001729004371';
+$dateexpire = '001731596371';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:10:{i:1;a:4:{s:2:"ID";s:1:"1";s:4:"NAME";s:16:"Владелец";s:11:"DEPTH_LEVEL";s:1:"1";s:17:"IBLOCK_SECTION_ID";N;}i:69;a:4:{s:2:"ID";s:2:"69";s:4:"NAME";s:23:"Отдел продаж";s:11:"DEPTH_LEVEL";s:1:"2";s:17:"IBLOCK_SECTION_ID";s:1:"1";}i:76;a:4:{s:2:"ID";s:2:"76";s:4:"NAME";s:31:"Отдел разработки";s:11:"DEPTH_LEVEL";s:1:"2";s:17:"IBLOCK_SECTION_ID";s:1:"1";}i:77;a:4:{s:2:"ID";s:2:"77";s:4:"NAME";s:29:"Отдел снабжения";s:11:"DEPTH_LEVEL";s:1:"2";s:17:"IBLOCK_SECTION_ID";s:1:"1";}i:92;a:4:{s:2:"ID";s:2:"92";s:4:"NAME";s:37:"Маркетинговый отдел";s:11:"DEPTH_LEVEL";s:1:"2";s:17:"IBLOCK_SECTION_ID";s:1:"1";}i:127;a:4:{s:2:"ID";s:3:"127";s:4:"NAME";s:35:"Коммерческий отдел";s:11:"DEPTH_LEVEL";s:1:"2";s:17:"IBLOCK_SECTION_ID";s:1:"1";}i:60;a:4:{s:2:"ID";s:2:"60";s:4:"NAME";s:10:"Школа";s:11:"DEPTH_LEVEL";s:1:"3";s:17:"IBLOCK_SECTION_ID";s:2:"69";}i:73;a:4:{s:2:"ID";s:2:"73";s:4:"NAME";s:33:"Технический отдел";s:11:"DEPTH_LEVEL";s:1:"3";s:17:"IBLOCK_SECTION_ID";s:2:"69";}i:71;a:4:{s:2:"ID";s:2:"71";s:4:"NAME";s:24:"Производство";s:11:"DEPTH_LEVEL";s:1:"3";s:17:"IBLOCK_SECTION_ID";s:3:"127";}i:72;a:4:{s:2:"ID";s:2:"72";s:4:"NAME";s:18:"Фин. отдел";s:11:"DEPTH_LEVEL";s:1:"3";s:17:"IBLOCK_SECTION_ID";s:3:"127";}}}';
+return true;
+?>

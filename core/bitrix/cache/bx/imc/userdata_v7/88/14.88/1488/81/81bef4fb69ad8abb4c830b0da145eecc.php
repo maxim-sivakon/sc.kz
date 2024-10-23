@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001729004356';
+$dateexpire = '001747148356';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:36:{s:2:"ID";s:4:"1488";s:9:"LAST_NAME";s:16:"Алексеев";s:4:"NAME";s:27:"Денис Алексеев";s:5:"EMAIL";s:19:"denijck10@gmail.com";s:5:"LOGIN";s:19:"denijck10@gmail.com";s:14:"PERSONAL_PHOTO";s:5:"70270";s:11:"SECOND_NAME";N;s:17:"PERSONAL_BIRTHDAY";N;s:13:"WORK_POSITION";N;s:15:"PERSONAL_GENDER";s:0:"";s:16:"EXTERNAL_AUTH_ID";N;s:16:"TIME_ZONE_OFFSET";s:4:"7200";s:12:"PERSONAL_WWW";N;s:6:"ACTIVE";s:1:"Y";s:11:"LANGUAGE_ID";s:2:"ru";s:10:"WORK_PHONE";N;s:15:"PERSONAL_MOBILE";N;s:14:"PERSONAL_PHONE";N;s:5:"COLOR";s:7:"#f76187";s:6:"STATUS";s:6:"online";s:13:"UF_DEPARTMENT";a:1:{i:0;i:69;}s:14:"UF_PHONE_INNER";s:3:"705";s:7:"UF_ZOOM";N;s:8:"UF_SKYPE";N;s:13:"UF_SKYPE_LINK";N;s:11:"UF_VI_PHONE";N;s:10:"FIRST_NAME";s:10:"Денис";s:8:"BIRTHDAY";b:0;s:6:"AVATAR";s:83:"/upload/resize_cache/main/aec/aghmplr8rrntq9iev8xql6t95ff9pg0w/200_200_2/avatar.png";s:9:"AVATAR_HR";s:83:"/upload/resize_cache/main/aec/aghmplr8rrntq9iev8xql6t95ff9pg0w/200_200_2/avatar.png";s:9:"AVATAR_ID";i:70270;s:11:"IS_EXTRANET";b:0;s:10:"IS_NETWORK";b:0;s:6:"IS_BOT";b:0;s:12:"IS_CONNECTOR";b:0;s:11:"INNER_PHONE";s:3:"705";}}';
+return true;
+?>
