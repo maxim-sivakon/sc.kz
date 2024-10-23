@@ -5,7 +5,7 @@
 
 /core/bitrix/components/*
 /core/bitrix/modules/*
-/core/bitrix/tools/*
+#/core/bitrix/tools/*
 
 
 # ignore cache files and more
